@@ -1,9 +1,9 @@
 {
-  "checkedAt": "2026-11-17T16:22:18.843Z",
+  "checkedAt": "2026-11-17T16:59:59Z",
   "taipeiDate": "2026-11-18",
   "status": "published",
-  "newRecords": 5,
-  "sourceCount": 7,
+  "newRecords": 4,
+  "sourceCount": 8,
   "publicationVerified": true,
-  "reason": "實際核對7篇原帖，另2篇PTT回403略過；5筆通過原帖、官方菜單及node驗證。GitHub寫入並讀回一致；首次同步遇冷卻，依nextAttemptAt重試1次成功。網站兩端點HTTP 200，8筆資料與2026-11-18核對日讀回一致，原有3筆完整保留、新增5筆上線，補發0筆。新增原帖日期無法確認，均填null。"
+  "reason": "已讀18家126杯監測清單；重點龜記、五桐號、茶湯會，另搜尋及核對得正、McCafé。嘗試9篇，實讀8篇，1篇PTT受阻略過。新增4筆、補發0；經官方菜單、去重及node驗證通過，GitHub資料讀回一致。空POST首次同步成功，正式兩端點HTTP200，12筆及2026-11-18核對日一致，原有8筆完整保留。McCafé因品項不明或促銷疑慮排除；新增原帖日期未顯示，均填null。"
 }
