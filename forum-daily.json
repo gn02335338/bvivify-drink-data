@@ -64,6 +64,39 @@
       "date": null,
       "stance": "mixed",
       "note": "作者先前喜歡微糖春芽綠茶，這次改點無糖卻覺得難喝，向板友詢問補救方式；冰量與門市未提。"
+    },
+    {
+      "drinkId": "guiji-blooming-oolong",
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/boba/p/256449960",
+      "date": null,
+      "stance": "positive",
+      "note": "作者實喝半糖花沫烏龍，喜歡花香與烏龍茶的搭配，覺得順口且甜而不膩；冰量與門市未提。"
+    },
+    {
+      "drinkId": "wootea-honest-black",
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/boba/p/260466127",
+      "date": null,
+      "stance": "positive",
+      "note": "作者購買無糖去冰老實人紅茶，覺得紅茶風味完整、不澀，表示願意回購；未交代門市。"
+    },
+    {
+      "drinkId": "wootea-honest-black",
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/boba/p/240147634",
+      "date": null,
+      "stance": "negative",
+      "note": "作者常喝老實人紅茶，覺得住家附近門市的版本比先前另一家店少了香氣與順口感；糖冰未明，製作差異原因未確認。"
+    },
+    {
+      "drinkId": "tptea-gongfu-black",
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/food/p/242548688",
+      "date": null,
+      "stance": "positive",
+      "note": "作者以台中、太平飲茶經驗推薦功夫紅茶，覺得茶味厚但不膩；平常偏好一分糖微冰，未確認此杯確切糖冰、加料或門市。"
     }
   ]
 }
+
