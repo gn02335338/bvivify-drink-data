@@ -1,5 +1,5 @@
 {
-  "reviewedOn": "2026-11-17",
+  "reviewedOn": "2026-11-18",
   "records": [
     {
       "drinkId": "louisa-coffee-latte",
@@ -24,6 +24,46 @@
       "date": "2011-07-11",
       "stance": "positive",
       "note": "發文者點了熱焦糖瑪奇朵，表示喜歡。這是較早期的點餐心得。"
+    },
+    {
+      "drinkId": "louisa-farm-milk-tea",
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/food/p/245597678",
+      "date": null,
+      "stance": "negative",
+      "note": "作者自述點微糖微冰，覺得奶味比印象中淡、喝起來近似純紅茶；杯貼冰量有留言提出疑義，門市未明。"
+    },
+    {
+      "drinkId": "cama-oat-latte",
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/coffee/p/239187710",
+      "date": null,
+      "stance": "positive",
+      "note": "作者喝過店售燕麥拿鐵後喜歡咖啡香與燕麥奶的搭配，偏好勝過自己喝過的其他連鎖品牌；糖度、冷熱與門市未提。"
+    },
+    {
+      "drinkId": "louisa-piccolo",
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/food/p/232483668",
+      "date": null,
+      "stance": "positive",
+      "note": "作者試喝熱無糖特濃小卡布，喜歡濃郁的咖啡與牛奶口感；未交代門市。"
+    },
+    {
+      "drinkId": "kebuke-green",
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/boba/p/260410870",
+      "date": null,
+      "stance": "positive",
+      "note": "作者實喝無糖春芽綠茶，喜歡濃厚茶味、順口與回甘，表示願意回購；冰量與門市未提。"
+    },
+    {
+      "drinkId": "kebuke-green",
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/boba/p/239813355",
+      "date": null,
+      "stance": "mixed",
+      "note": "作者先前喜歡微糖春芽綠茶，這次改點無糖卻覺得難喝，向板友詢問補救方式；冰量與門市未提。"
     }
   ]
 }
