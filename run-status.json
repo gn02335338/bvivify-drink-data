@@ -1,9 +1,9 @@
 {
-  "checkedAt": null,
-  "taipeiDate": null,
-  "status": "blocked",
-  "newRecords": 0,
-  "sourceCount": 0,
-  "publicationVerified": false,
-  "reason": "雲端每日工作正在設定，尚未完成第一輪測試。"
+  "checkedAt": "2026-11-17T16:22:18.843Z",
+  "taipeiDate": "2026-11-18",
+  "status": "published",
+  "newRecords": 5,
+  "sourceCount": 7,
+  "publicationVerified": true,
+  "reason": "實際核對7篇原帖，另2篇PTT回403略過；5筆通過原帖、官方菜單及node驗證。GitHub寫入並讀回一致；首次同步遇冷卻，依nextAttemptAt重試1次成功。網站兩端點HTTP 200，8筆資料與2026-11-18核對日讀回一致，原有3筆完整保留、新增5筆上線，補發0筆。新增原帖日期無法確認，均填null。"
 }
