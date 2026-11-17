@@ -4,7 +4,7 @@ const platformHosts = {
   Threads: ['threads.com', 'threads.net'],
   Mobile01: ['mobile01.com', 'm.mobile01.com'],
 };
-export const forumReviewedOn = '2026-11-17';
+export const forumReviewedOn = '2026-11-18';
 
 function dateWeight(date, reviewedOn) {
   const age = (Date.parse(reviewedOn) - Date.parse(date ?? '')) / 86_400_000;

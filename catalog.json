@@ -1,5 +1,5 @@
 {
-  "verifiedOn": "2026-11-17",
+  "verifiedOn": "2026-11-18",
   "shops": [
     {
       "slug": "milksha",
@@ -346,9 +346,10 @@
           "base": "green-tea",
           "tags": [
             "tea",
+            "milk",
             "refreshing"
           ],
-          "sourceUrl": "https://www.chingshin.tw/product.php",
+          "sourceUrl": "https://www.chingshin.tw/product/yogurt-green-tea",
           "sweetness": "unknown",
           "order": ""
         },
@@ -966,6 +967,807 @@
           ],
           "sourceUrl": "https://dejeng.com/drinks/",
           "order": "",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "guiji",
+      "name": "龜記",
+      "type": "tea",
+      "aliases": [
+        "龜記茗品",
+        "Guiji"
+      ],
+      "officialUrl": "https://guiji-group.com/drinks",
+      "region": "台北、新北、宜蘭、基隆、新竹、花蓮、金門、澎湖一般門市",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "guiji-jade-green",
+          "name": "翡翠綠茶",
+          "base": "green-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://guiji-group.com/drinks",
+          "order": "官網菜單列有不另外加糖選項；配料與原料仍可能含糖",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "guiji-four-seasons",
+          "name": "青四季春",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://guiji-group.com/drinks",
+          "order": "官網菜單列有不另外加糖選項；配料與原料仍可能含糖",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "guiji-33-king",
+          "name": "三十三茶王",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://guiji-group.com/drinks",
+          "order": "官網菜單列有不另外加糖選項；配料與原料仍可能含糖",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "guiji-blooming-oolong",
+          "name": "花沫烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://guiji-group.com/drinks",
+          "order": "官網菜單列有不另外加糖選項；配料與原料仍可能含糖",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "guiji-grapefruit-green",
+          "name": "紅柚翡翠",
+          "base": "green-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://guiji-group.com/drinks",
+          "order": "官網標示原料本身含糖；冷飲",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "guiji-rich-milk-tea",
+          "name": "龜記濃乳茶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://guiji-group.com/drinks",
+          "order": "官網菜單列有不另外加糖選項；配料與原料仍可能含糖",
+          "sweetness": "adjustable"
+        }
+      ]
+    },
+    {
+      "slug": "wootea",
+      "name": "五桐號",
+      "type": "tea",
+      "aliases": [
+        "WooTEA",
+        "五桐號茶飲專賣"
+      ],
+      "officialUrl": "https://www.wootea.com/products/",
+      "region": "台灣官網現行品項，供應與甜冰限制依門市",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "wootea-classic",
+          "name": "經典五桐茶",
+          "base": "blended-tea",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://www.wootea.com/products/",
+          "order": "五種茶葉調配，僅供冷飲；甜度選項尚未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "wootea-almond-jelly",
+          "name": "杏仁凍五桐茶",
+          "base": "blended-tea",
+          "tags": [
+            "tea",
+            "creamy",
+            "jelly",
+            "topping"
+          ],
+          "sourceUrl": "https://www.wootea.com/products/",
+          "order": "含杏仁凍，僅供冷飲；配料完整配方未核對，不視為可點無糖",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "wootea-honest-black",
+          "name": "老實人紅茶",
+          "base": "black-tea",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://www.wootea.com/products/",
+          "order": "提供冷、熱飲；甜度選項尚未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "wootea-light-oolong",
+          "name": "清香烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.wootea.com/products/",
+          "order": "提供冷、熱飲；甜度選項尚未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "wootea-jasmine",
+          "name": "茉莉香片",
+          "base": "green-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.wootea.com/products/",
+          "order": "提供冷、熱飲；甜度選項尚未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "wootea-oolong-latte",
+          "name": "鐵觀音拿鐵",
+          "base": "oolong",
+          "tags": [
+            "milk",
+            "roasted",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.wootea.com/products/",
+          "order": "提供冷、熱飲；甜度選項尚未核對",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "tptea",
+      "name": "茶湯會",
+      "type": "tea",
+      "aliases": [
+        "TP TEA",
+        "TP-TEA"
+      ],
+      "officialUrl": "https://tp-tea.com/menu/index.php?index_m1_id=17&index_m2_id=293",
+      "region": "北區一般門市，2026 年 11 月官方菜單",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "tptea-tieguanyin-latte",
+          "name": "觀音拿鐵",
+          "base": "oolong",
+          "tags": [
+            "milk",
+            "roasted",
+            "creamy"
+          ],
+          "sourceUrl": "https://tp-tea.com/menu/index.php?index_m1_id=17&index_m2_id=293",
+          "order": "官網菜單列有不另外加糖選項；配料與原料仍可能含糖",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "tptea-jade-lemon",
+          "name": "翡翠檸檬",
+          "base": "green-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://tp-tea.com/menu/index.php?index_m1_id=17&index_m2_id=293",
+          "order": "含檸檬，僅供冷飲",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "tptea-roasted-tieguanyin",
+          "name": "碳燒鐵觀音",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://tp-tea.com/menu/index.php?index_m1_id=17&index_m2_id=293",
+          "order": "官網菜單列有不另外加糖選項；配料與原料仍可能含糖",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "tptea-jade-green",
+          "name": "特級翡翠綠",
+          "base": "green-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://tp-tea.com/menu/index.php?index_m1_id=17&index_m2_id=293",
+          "order": "官網菜單列有不另外加糖選項；配料與原料仍可能含糖",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "tptea-four-seasons",
+          "name": "四季春",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://tp-tea.com/menu/index.php?index_m1_id=17&index_m2_id=293",
+          "order": "官網菜單列有不另外加糖選項；配料與原料仍可能含糖",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "tptea-gongfu-black",
+          "name": "功夫紅茶",
+          "base": "black-tea",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://tp-tea.com/menu/index.php?index_m1_id=17&index_m2_id=293",
+          "order": "官網菜單列有不另外加糖選項；配料與原料仍可能含糖",
+          "sweetness": "adjustable"
+        }
+      ]
+    },
+    {
+      "slug": "comebuy",
+      "name": "COMEBUY",
+      "type": "tea",
+      "aliases": [
+        "Comebuy",
+        "COMEBUY 現萃茶"
+      ],
+      "officialUrl": "https://www.comebuy2002.com.tw/products-detail/comebuy_menu/",
+      "region": "台灣官網 2026 年 6 月版門市菜單，供應依門市",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "comebuy-neptune",
+          "name": "嗨神",
+          "base": "green-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.comebuy2002.com.tw/products-detail/comebuy_menu/",
+          "order": "官網菜單列有不另外加糖選項；配料與原料仍可能含糖",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "comebuy-passion-tea",
+          "name": "玩火",
+          "base": "blended-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.comebuy2002.com.tw/products-detail/comebuy_menu/",
+          "order": "煎茶與烏龍調配、帶水果風味；官網菜單列有不另外加糖選項；配料與原料仍可能含糖",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "comebuy-barley-black",
+          "name": "鮮萃大麥紅茶",
+          "base": "black-tea",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://www.comebuy2002.com.tw/products-detail/comebuy_menu/",
+          "order": "含麩質之穀物製品；官網菜單列有不另外加糖選項；配料與原料仍可能含糖",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "comebuy-jinxuan",
+          "name": "金萱烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.comebuy2002.com.tw/products-detail/comebuy_menu/",
+          "order": "官網菜單列有不另外加糖選項；配料與原料仍可能含糖",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "comebuy-biluochun",
+          "name": "碧螺春綠",
+          "base": "green-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.comebuy2002.com.tw/products-detail/comebuy_menu/",
+          "order": "官網菜單列有不另外加糖選項；配料與原料仍可能含糖",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "comebuy-apple-tea",
+          "name": "蘋果冰茶",
+          "base": "blended-tea",
+          "tags": [
+            "tea",
+            "fruit",
+            "refreshing",
+            "jelly",
+            "topping"
+          ],
+          "sourceUrl": "https://www.comebuy2002.com.tw/products-detail/comebuy_menu/",
+          "order": "屬官網鮮調果茶；使用蘋果果露、檸檬汁與寒天晶球，原料有甜味",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "comebuy-lychee-green",
+          "name": "玉荷冰綠",
+          "base": "green-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.comebuy2002.com.tw/products-detail/comebuy_menu/",
+          "order": "使用荔枝露與茉莉綠茶，原料有甜味",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "unocha",
+      "name": "烏弄",
+      "type": "tea",
+      "aliases": [
+        "UNOCHA",
+        "烏弄原茶"
+      ],
+      "officialUrl": "https://unocha.com.tw/drinks.php",
+      "region": "台灣官網現行菜單，區域品項與門市供應有差異",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "unocha-winter-tea",
+          "name": "名間鄉冬片仔",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://unocha.com.tw/drinks.php",
+          "order": "可作溫熱飲；官網甜度選項尚未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "unocha-ruby-black",
+          "name": "台茶十八號・紅玉",
+          "base": "black-tea",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://unocha.com.tw/drinks.php",
+          "order": "可作溫熱飲；官網甜度選項尚未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "unocha-jinxuan-oolong",
+          "name": "金萱烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://unocha.com.tw/drinks.php",
+          "order": "可作溫熱飲；官網甜度選項尚未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "unocha-biluochun",
+          "name": "碧螺春・綠",
+          "base": "green-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://unocha.com.tw/drinks.php",
+          "order": "可作溫熱飲；官網甜度選項尚未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "unocha-almond-winter",
+          "name": "杏仁凍冬片仔",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "creamy",
+            "jelly",
+            "topping"
+          ],
+          "sourceUrl": "https://unocha.com.tw/drinks.php",
+          "order": "含杏仁凍，配料完整配方未核對，不視為可點無糖",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "unocha-ruby-latte",
+          "name": "玉霞紅茶拿鐵",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://unocha.com.tw/drinks.php",
+          "order": "以台茶十八號紅玉加鮮乳，可作溫熱飲；甜度選項尚未核對",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "85cafe",
+      "name": "85度C",
+      "type": "coffee",
+      "aliases": [
+        "85°C",
+        "85度c",
+        "85C",
+        "85 Cafe"
+      ],
+      "officialUrl": "https://www.85cafe.com/Product.php?datasid=18&datatid=9",
+      "region": "品牌台灣官網品項，實際販售依門市",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "85cafe-americano",
+          "name": "美式咖啡",
+          "base": "coffee",
+          "tags": [],
+          "sourceUrl": "https://www.85cafe.com/Product.php?datasid=18&datatid=9",
+          "order": "官網列冰、熱；甜度調整未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "85cafe-latte",
+          "name": "拿鐵咖啡",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.85cafe.com/Product.php?datasid=18&datatid=9",
+          "order": "官網列冰、熱；甜度調整未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "85cafe-signature",
+          "name": "招牌咖啡",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.85cafe.com/Product.php?datasid=18&datatid=9",
+          "order": "官網說明原配方含奶精與糖，客製甜度未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "85cafe-strong-signature",
+          "name": "特濃招牌咖啡",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy",
+            "roasted"
+          ],
+          "sourceUrl": "https://www.85cafe.com/Product.php?datasid=18&datatid=9",
+          "order": "官網列冰、熱，以招牌咖啡增加咖啡液",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "85cafe-sea-salt-coffee",
+          "name": "就是海岩咖啡",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.85cafe.com/Product.php?datasid=18&datatid=9",
+          "order": "官網列冰、熱，咖啡上有海岩奶酪；甜度選項未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "85cafe-lychee-americano",
+          "name": "荔枝冰美式",
+          "base": "coffee",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.85cafe.com/Product.php?datasid=18&datatid=9",
+          "order": "官網列冰飲；含荔枝風味，甜度選項未核對",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "citycafe",
+      "name": "CITY CAFE",
+      "type": "coffee",
+      "aliases": [
+        "CityCafe",
+        "CITY CAFÉ",
+        "7-ELEVEN",
+        "7-11",
+        "小七咖啡"
+      ],
+      "officialUrl": "https://www.citycafe.com.tw/price.aspx",
+      "region": "品牌台灣官網品項，實際販售依門市",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "citycafe-americano",
+          "name": "美式咖啡",
+          "base": "coffee",
+          "tags": [],
+          "sourceUrl": "https://www.citycafe.com.tw/price.aspx",
+          "order": "官網價目表列冰、熱；甜度調整未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "citycafe-latte",
+          "name": "拿鐵咖啡",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.citycafe.com.tw/price.aspx",
+          "order": "官網價目表列冰、熱；甜度調整未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "citycafe-strong-americano",
+          "name": "濃萃美式咖啡",
+          "base": "coffee",
+          "tags": [
+            "roasted"
+          ],
+          "sourceUrl": "https://www.citycafe.com.tw/price.aspx",
+          "order": "與一般美式分開列項，官網列冰、熱",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "citycafe-strong-latte",
+          "name": "濃萃拿鐵咖啡",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy",
+            "roasted"
+          ],
+          "sourceUrl": "https://www.citycafe.com.tw/price.aspx",
+          "order": "與一般拿鐵分開列項，官網列冰、熱",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "citycafe-rich-milk-latte",
+          "name": "厚乳拿鐵",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.citycafe.com.tw/price.aspx",
+          "order": "官網價目表列冰、熱；甜度選項未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "citycafe-oat-latte",
+          "name": "燕麥拿鐵",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.citycafe.com.tw/price.aspx",
+          "order": "植物奶；熱飲限定門市，甜度選項未核對",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "letscafe",
+      "name": "Let’s Café",
+      "type": "coffee",
+      "aliases": [
+        "Let's Café",
+        "Lets Cafe",
+        "全家咖啡",
+        "全家便利商店"
+      ],
+      "officialUrl": "https://nevent.family.com.tw/2018_letscafe/product/index.html",
+      "region": "品牌台灣官網品項，實際販售依門市",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "letscafe-americano",
+          "name": "經典美式",
+          "base": "coffee",
+          "tags": [],
+          "sourceUrl": "https://nevent.family.com.tw/2018_letscafe/product/index.html",
+          "order": "官網列冰、熱；甜度調整未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "letscafe-latte",
+          "name": "經典拿鐵",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://nevent.family.com.tw/2018_letscafe/product/index.html",
+          "order": "官網列冰、熱；甜度調整未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "letscafe-strong-americano",
+          "name": "特濃美式",
+          "base": "coffee",
+          "tags": [
+            "roasted"
+          ],
+          "sourceUrl": "https://nevent.family.com.tw/2018_letscafe/product/index.html",
+          "order": "官網列冰、熱；特大杯限店",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "letscafe-strong-latte",
+          "name": "特濃拿鐵",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy",
+            "roasted"
+          ],
+          "sourceUrl": "https://nevent.family.com.tw/2018_letscafe/product/index.html",
+          "order": "官網列冰、熱；特大杯限店",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "letscafe-oat-latte",
+          "name": "燕麥奶拿鐵",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://nevent.family.com.tw/2018_letscafe/product/index.html",
+          "order": "官網列OATLY／愛之味兩種植物奶，非專用產線",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "letscafe-ice-brick-latte",
+          "name": "經典冰磚拿鐵",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://nevent.family.com.tw/2018_letscafe/product/index.html",
+          "order": "官網列冰飲；原帖提及的煉乳不是無糖資訊",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "mccafe",
+      "name": "McCafé",
+      "type": "coffee",
+      "aliases": [
+        "McCafe",
+        "麥當勞咖啡",
+        "麥咖啡",
+        "麥當勞"
+      ],
+      "officialUrl": "https://www.mcdonalds.com/tw/zh-tw/full-menu/mccafe.html",
+      "region": "品牌台灣官網品項，實際販售依門市",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "mccafe-americano",
+          "name": "經典美式咖啡",
+          "base": "coffee",
+          "tags": [
+            "roasted"
+          ],
+          "sourceUrl": "https://www.mcdonalds.com/content/dam/sites/tw/files/2025/現場調製飲料標示20250304.pdf",
+          "order": "官方標示表的原配方總糖量為0，另加糖不在此範圍；有冰、熱",
+          "sweetness": "unsweetened"
+        },
+        {
+          "id": "mccafe-latte",
+          "name": "經典那堤",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.mcdonalds.com/tw/zh-tw/product/iced-latte.html",
+          "order": "官網列冰、熱；甜度調整未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "mccafe-cappuccino",
+          "name": "經典卡布奇諾",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.mcdonalds.com/tw/zh-tw/product/cappuccino.html",
+          "order": "官網列冰、熱；甜度調整未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "mccafe-select-americano",
+          "name": "金選美式咖啡",
+          "base": "coffee",
+          "tags": [
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.mcdonalds.com/tw/zh-tw/whats-hot/0430SelectBrewCoffee.html",
+          "order": "官網營養表原配方總糖量為0，另加糖不在此範圍；有冰、熱",
+          "sweetness": "unsweetened"
+        },
+        {
+          "id": "mccafe-select-latte",
+          "name": "金選那堤",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.mcdonalds.com/tw/zh-tw/product/select-brew-latte.html",
+          "order": "官網列冰、熱；甜度調整未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "mccafe-honey-black-tea",
+          "name": "蜂蜜紅茶",
+          "base": "black-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.mcdonalds.com/tw/zh-tw/product/honey-black-tea-iced.html",
+          "order": "官網列冰飲，原配方含蜂蜜；甜度調整未核對",
           "sweetness": "unknown"
         }
       ]

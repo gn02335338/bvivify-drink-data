@@ -478,5 +478,213 @@
     "date": "2022-12-12",
     "stance": "positive",
     "note": "留言者喝過無糖甘蔗春烏龍，喜歡清香、較清淡的風味。"
+  },
+  {
+    "drinkId": "guiji-four-seasons",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/boba/p/255788494",
+    "date": null,
+    "stance": "positive",
+    "note": "作者在龜山中興店點無糖少冰青四季春加珍珠，覺得茶順口、珍珠有彈性，表示願意再買；配料稍甜。"
+  },
+  {
+    "drinkId": "guiji-grapefruit-green",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/boba/p/255788494",
+    "date": null,
+    "stance": "positive",
+    "note": "同次於龜山中興店飲用紅柚翡翠，點無糖去冰，覺得柚肉充足、酸甜平衡，但茶香不突出，仍願意回購。"
+  },
+  {
+    "drinkId": "guiji-rich-milk-tea",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/boba/p/253361428",
+    "date": null,
+    "stance": "negative",
+    "note": "作者於龜山中興店點無糖微冰濃乳茶加珍珠，覺得奶香明顯但茶味過苦，表示自己不會再買此點法。"
+  },
+  {
+    "drinkId": "guiji-grapefruit-green",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/boba/p/253361428",
+    "date": null,
+    "stance": "positive",
+    "note": "作者同次點無糖微冰紅柚翡翠，喜歡果肉與酸甜比例，雖覺得茶感偏弱，仍表示會再次購買。"
+  },
+  {
+    "drinkId": "wootea-almond-jelly",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/food/p/242549199",
+    "date": null,
+    "stance": "mixed",
+    "note": "杏仁飲品比較文中，作者喜歡五桐茶的清香及凍的綿密感，但覺得整杯偏甜、後段略膩；自述偏好微糖。"
+  },
+  {
+    "drinkId": "wootea-almond-jelly",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/food/p/234509237",
+    "date": null,
+    "stance": "positive",
+    "note": "作者已喝過兩次杏仁凍五桐茶，喜歡杏仁香與茶的搭配，認為固定甜度整體合口味；同時提醒凍本身偏甜。"
+  },
+  {
+    "drinkId": "wootea-almond-jelly",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/boba/p/254006348",
+    "date": null,
+    "stance": "mixed",
+    "note": "原先不敢喝杏仁的作者實喝固定甜冰版本，覺得凍偏軟、杏仁氣味較輕，茶能蓋過杏仁，整體可以接受。"
+  },
+  {
+    "drinkId": "tptea-tieguanyin-latte",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/boba/p/237813583",
+    "date": null,
+    "stance": "positive",
+    "note": "作者比較多家鐵觀音奶飲後偏好茶湯會觀音拿鐵，覺得茶奶搭配均衡且略有茶香；平常點微糖微冰。"
+  },
+  {
+    "drinkId": "tptea-jade-lemon",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/boba/p/237117824",
+    "date": null,
+    "stance": "positive",
+    "note": "作者整理自己常點的飲料，喜歡微糖少冰翡翠檸檬，特別提到碎冰帶來的冰沙口感；屬較早期點餐經驗。"
+  },
+  {
+    "drinkId": "comebuy-passion-tea",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/boba/p/236940120",
+    "date": null,
+    "stance": "positive",
+    "note": "作者表示自己喜歡COMEBUY，明確將玩火列入推薦清單；沒有交代糖度、冰量或門市。"
+  },
+  {
+    "drinkId": "comebuy-apple-tea",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/boba/p/257323962",
+    "date": null,
+    "stance": "positive",
+    "note": "作者實喝微冰、不另加糖的蘋果冰茶，喜歡果露與檸檬的酸甜搭配及寒天晶球口感；原料本身仍有甜味。"
+  },
+  {
+    "drinkId": "comebuy-lychee-green",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/boba/p/237117824",
+    "date": null,
+    "stance": "positive",
+    "note": "作者常點玉荷冰綠加寒天晶球，點不另加糖、少冰，喜歡荔枝風味並強烈推薦；果露與配料本身仍有甜味。"
+  },
+  {
+    "drinkId": "unocha-winter-tea",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/boba/p/253816790",
+    "date": null,
+    "stance": "positive",
+    "note": "作者常點無糖冬片仔，喜歡香氣及尾段的穀物風味，覺得口感不苦；只收錄個人口味，不採文中健康推論。"
+  },
+  {
+    "drinkId": "unocha-ruby-black",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/boba/p/253816790",
+    "date": null,
+    "stance": "positive",
+    "note": "作者也常點無糖紅玉，喜歡其香氣及喝後不乾澀的感受；偶爾會加桂花凍，與不加料版本有差異。"
+  },
+  {
+    "drinkId": "unocha-almond-winter",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/food/p/242549199",
+    "date": null,
+    "stance": "negative",
+    "note": "比較三家杏仁飲品後，作者覺得烏弄杏仁凍冬片仔的茶與杏仁風味較淡，整體不如期待；自述偏好微糖。"
+  },
+  {
+    "drinkId": "85cafe-sea-salt-coffee",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/boba/p/237289456",
+    "date": null,
+    "stance": "mixed",
+    "note": "作者實喝無糖去冰海岩咖啡，覺得好喝，但認為海岩奶蓋偏少。原帖為較早期的點餐心得，不能當成現行甜度選項證明。"
+  },
+  {
+    "drinkId": "85cafe-sea-salt-coffee",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/food/p/250115215",
+    "date": null,
+    "stance": "positive",
+    "note": "作者常買海岩咖啡，喜歡上層鹹味奶酪；曾在不同門市喝到更濃咖啡味，糖度和冷熱未交代。原帖使用海岩咖啡簡稱。"
+  },
+  {
+    "drinkId": "citycafe-americano",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/cvs/p/255240813",
+    "date": null,
+    "stance": "negative",
+    "note": "作者買了7-11美式咖啡後覺得難喝，未說明冰熱、加糖或門市，也沒有把濃萃系列當成同一杯。"
+  },
+  {
+    "drinkId": "citycafe-latte",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/cvs/p/238054489",
+    "date": null,
+    "stance": "negative",
+    "note": "作者在不同門市喝一般拿鐵，覺得當時苦味變明顯；未確認配方是否改動，冷熱、糖度未提，屬較早期心得。"
+  },
+  {
+    "drinkId": "citycafe-strong-americano",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/cvs/p/257223777",
+    "date": null,
+    "stance": "negative",
+    "note": "作者第一次喝7-11濃萃美式，覺得咖啡香不足、帶土味且尾段很苦，未喝完；本人也不確定是否為該門市製作問題。"
+  },
+  {
+    "drinkId": "citycafe-rich-milk-latte",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/cvs/p/253894169",
+    "date": null,
+    "stance": "mixed",
+    "note": "作者同時試喝冰熱厚乳拿鐵，較喜歡熱飲的奶泡和較輕苦味；覺得奶香沒有預期濃，冰飲苦味較明顯，原價偏高。"
+  },
+  {
+    "drinkId": "letscafe-latte",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/coffee/p/253862937",
+    "date": null,
+    "stance": "positive",
+    "note": "作者常喝全家熱經典拿鐵，喜歡奶味與咖啡味的平衡和順口感，認為自己買到的不同門市表現較一致；加糖未提。"
+  },
+  {
+    "drinkId": "letscafe-latte",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/cvs/p/241862348",
+    "date": null,
+    "stance": "negative",
+    "note": "作者實喝經典拿鐵後覺得咖啡味變淡、像被稀釋，較喜歡特濃版本；不知道是否換豆，糖度與冷熱未提。"
+  },
+  {
+    "drinkId": "letscafe-strong-latte",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/cvs/p/260429340",
+    "date": null,
+    "stance": "positive",
+    "note": "作者自述常喝全家特濃拿鐵，喜歡濃厚奶味、足夠咖啡味和滑順口感；本筆只收咖啡心得，不納入附餐布丁或優惠。"
+  },
+  {
+    "drinkId": "letscafe-ice-brick-latte",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/cvs/p/255813399",
+    "date": null,
+    "stance": "positive",
+    "note": "作者實喝經典冰磚拿鐵，描述有煉乳甜味，並喜歡冰塊融化後仍濃，表示願意回購。原帖是較早期配方經驗。"
+  },
+  {
+    "drinkId": "mccafe-select-latte",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/food/p/259011250",
+    "date": null,
+    "stance": "positive",
+    "note": "作者比較常喝的連鎖冰拿鐵，喜歡麥當勞金選冰那堤的奶味與咖啡平衡；本人提醒不同門市品質可能有差，本筆不採用其品牌排名。"
   }
 ]

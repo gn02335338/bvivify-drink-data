@@ -10,7 +10,7 @@ export function validDate(value) {
 
 export function validateDailyForum(batch, seed, shops) {
   if (!batch || !Array.isArray(batch.records)) throw new Error('Daily forum batch must contain records');
-  if (batch.records.length && (!validDate(batch.reviewedOn) || batch.reviewedOn < forumReviewedOn)) {
+  if (batch.records.length && !validDate(batch.reviewedOn)) {
     throw new Error('Daily forum batch needs a valid review date');
   }
   const records = batch.records.map(entry => {
@@ -20,7 +20,9 @@ export function validateDailyForum(batch, seed, shops) {
     return { drinkId, platform, url, date, stance, note: note.trim() };
   });
   const reviewedOn = records.length ? batch.reviewedOn : forumReviewedOn;
-  const analysis = analyzeForum([...seed, ...records], shops, reviewedOn);
+  // Seed evidence and the append-only daily batch have separate review dates.
+  // Adding a newly reviewed brand must not invalidate an older daily batch.
+  const analysis = analyzeForum([...seed, ...records], shops, reviewedOn > forumReviewedOn ? reviewedOn : forumReviewedOn);
   if (analysis.rowCount !== seed.length + records.length) throw new Error('Duplicate thread and drink pair');
   return { records, reviewedOn, analysis };
 }

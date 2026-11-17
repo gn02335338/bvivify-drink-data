@@ -6,7 +6,8 @@
 
 ChatGPT 網頁版雲端工作每天台灣時間 09:30，使用既有訂閱提供的搜尋與連接工具逐篇查證。電腦與桌面 App 關閉時仍可執行。訂閱額度耗盡或來源受阻時，保留目前資料並回報，禁止另購額度、自動加值、外部模型或搜尋 API。
 
-- `catalog.json`：9 個品牌、71 個官方菜單品項；依 `sourceUrl` 回查現行品項。
+- `catalog.json`：18 個品牌、126 個官方菜單品項；依 `sourceUrl` 回查現行品項。
+- `research-plan.json`：全部18家監測清單，及2026-11-18新增9家的每日輪替。新增品牌同樣是每日搜尋與驗證的對象。
 - `forum-seed.json`：網站內建的口碑基準；只讀，避免和增量重複。
 - `forum-daily.json`：`{ reviewedOn, records }` 格式的累積增量。保留既有每筆資料，只能追加已核對原帖。
 - `run-status.json`：最近一次雲端執行結果。它和「資料最後核對日」分開，找不到合格新資料不刷新 `reviewedOn`。
@@ -53,3 +54,11 @@ node validate.mjs /absolute/path/candidate.json
 ```
 
 可寫範圍只限 `forum-daily.json` 和 `run-status.json`。其他資料與工具由網站維護工作更新。沒有合格新資料就只記執行結果，既有資料與核對日期不動。本流程不使用 GitHub Actions、Sites hosting 或另外計費的 AI 服務。
+
+## 新增品牌與每日輪替
+
+2026-11-18新增龜記、五桐號、茶湯會、COMEBUY、烏弄、85度C、CITY CAFE、Let’s Café與McCafé，共55杯及26筆已讀原帖口碑。全部9家都有基準樣本。[手搖來源](tea-sources-20261118.md)、[咖啡來源](coffee-sources-20261118.md)記錄官方菜單、原帖及未能確認的選項。原帖未顯示日期時保持`null`，不由留言日期推論。
+
+每輪先讀`research-plan.json`，以台灣日期距`anchorDate`的日數計算`(dayOffset * brandsPerDay) % brandSlugs.length`，取連續3家擴充品牌作本日搜尋重點。另外補至少一家手搖與一家咖啡，優先挑目前原帖樣本較少的品牌／品項。總額仍最多核對12篇原帖、追加5筆；有限預算內三天輪到9家，不承諾每天每家都有新資料。
+
+每輪在`run-status.json.reason`記錄實際搜尋或核對的品牌與結果，最多300字元。只有搜尋過不能寫成已核對原帖，無法開啟、品項不明或行銷疑慮就排除。新品牌論壇原帖與舊品牌走相同驗證、去重、追加及正式讀回流程。

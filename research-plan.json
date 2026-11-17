@@ -1,0 +1,281 @@
+{
+  "version": 1,
+  "updatedOn": "2026-11-18",
+  "website": "https://drink.bvivify.com/",
+  "repository": "gn02335338/bvivify-drink-data",
+  "monitoredBrands": [
+    {
+      "slug": "milksha",
+      "name": "迷客夏",
+      "type": "tea",
+      "drinkIds": [
+        "milksha-jasmine",
+        "milksha-light-oolong",
+        "milksha-amber-oolong",
+        "milksha-buckwheat",
+        "milksha-barley",
+        "milksha-earl-grey-latte",
+        "milksha-taisho-latte",
+        "milksha-boba-taisho",
+        "milksha-orange-green",
+        "milksha-pomelo-green"
+      ]
+    },
+    {
+      "slug": "macu",
+      "name": "麻古茶坊",
+      "type": "tea",
+      "drinkIds": [
+        "macu-jinxuan",
+        "macu-emerald",
+        "macu-ceylon",
+        "macu-red-oolong",
+        "macu-black-latte",
+        "macu-boba-latte",
+        "macu-passion-green",
+        "macu-orange-jasmine",
+        "macu-grapefruit-jasmine"
+      ]
+    },
+    {
+      "slug": "chingshin",
+      "name": "清心福全",
+      "type": "tea",
+      "drinkIds": [
+        "chingshin-oolong-green",
+        "chingshin-green",
+        "chingshin-ceylon",
+        "chingshin-puer",
+        "chingshin-pearl-milk",
+        "chingshin-oolong-milk",
+        "chingshin-yogurt-green",
+        "chingshin-passion-green"
+      ]
+    },
+    {
+      "slug": "kebuke",
+      "name": "可不可熟成紅茶",
+      "type": "tea",
+      "drinkIds": [
+        "kebuke-black",
+        "kebuke-green",
+        "kebuke-oolong",
+        "kebuke-black-latte",
+        "kebuke-boba-latte",
+        "kebuke-lemon-black",
+        "kebuke-lemon-green"
+      ]
+    },
+    {
+      "slug": "daming",
+      "name": "大茗本位製茶堂",
+      "type": "tea",
+      "drinkIds": [
+        "daming-jade-oolong",
+        "daming-osmanthus",
+        "daming-roasted-oolong",
+        "daming-emerald",
+        "daming-red-jade",
+        "daming-buckwheat",
+        "daming-black-latte",
+        "daming-tieguanyin-latte"
+      ]
+    },
+    {
+      "slug": "louisa",
+      "name": "路易莎咖啡",
+      "type": "coffee",
+      "drinkIds": [
+        "louisa-specialty-latte",
+        "louisa-specialty-americano",
+        "louisa-piccolo",
+        "louisa-oat-latte",
+        "louisa-coffee-latte",
+        "louisa-farm-latte",
+        "louisa-farm-milk-tea"
+      ]
+    },
+    {
+      "slug": "starbucks",
+      "name": "星巴克",
+      "type": "coffee",
+      "drinkIds": [
+        "starbucks-americano",
+        "starbucks-latte",
+        "starbucks-caramel-macchiato",
+        "starbucks-flat-white",
+        "starbucks-cappuccino",
+        "starbucks-espresso",
+        "starbucks-hazelnut-latte"
+      ]
+    },
+    {
+      "slug": "cama",
+      "name": "cama café",
+      "type": "coffee",
+      "drinkIds": [
+        "cama-gold-latte",
+        "cama-light-latte",
+        "cama-gold-americano",
+        "cama-sicilian",
+        "cama-oat-latte",
+        "cama-espresso",
+        "cama-golden-mandheling"
+      ]
+    },
+    {
+      "slug": "dejeng",
+      "name": "得正",
+      "type": "tea",
+      "drinkIds": [
+        "dejeng-spring-oolong",
+        "dejeng-roasted-oolong",
+        "dejeng-lemon-oolong",
+        "dejeng-cane-oolong",
+        "dejeng-cheese-spring",
+        "dejeng-cheese-roasted",
+        "dejeng-roasted-milk",
+        "dejeng-golden-boba-milk"
+      ]
+    },
+    {
+      "slug": "guiji",
+      "name": "龜記",
+      "type": "tea",
+      "drinkIds": [
+        "guiji-jade-green",
+        "guiji-four-seasons",
+        "guiji-33-king",
+        "guiji-blooming-oolong",
+        "guiji-grapefruit-green",
+        "guiji-rich-milk-tea"
+      ]
+    },
+    {
+      "slug": "wootea",
+      "name": "五桐號",
+      "type": "tea",
+      "drinkIds": [
+        "wootea-classic",
+        "wootea-almond-jelly",
+        "wootea-honest-black",
+        "wootea-light-oolong",
+        "wootea-jasmine",
+        "wootea-oolong-latte"
+      ]
+    },
+    {
+      "slug": "tptea",
+      "name": "茶湯會",
+      "type": "tea",
+      "drinkIds": [
+        "tptea-tieguanyin-latte",
+        "tptea-jade-lemon",
+        "tptea-roasted-tieguanyin",
+        "tptea-jade-green",
+        "tptea-four-seasons",
+        "tptea-gongfu-black"
+      ]
+    },
+    {
+      "slug": "comebuy",
+      "name": "COMEBUY",
+      "type": "tea",
+      "drinkIds": [
+        "comebuy-neptune",
+        "comebuy-passion-tea",
+        "comebuy-barley-black",
+        "comebuy-jinxuan",
+        "comebuy-biluochun",
+        "comebuy-apple-tea",
+        "comebuy-lychee-green"
+      ]
+    },
+    {
+      "slug": "unocha",
+      "name": "烏弄",
+      "type": "tea",
+      "drinkIds": [
+        "unocha-winter-tea",
+        "unocha-ruby-black",
+        "unocha-jinxuan-oolong",
+        "unocha-biluochun",
+        "unocha-almond-winter",
+        "unocha-ruby-latte"
+      ]
+    },
+    {
+      "slug": "85cafe",
+      "name": "85度C",
+      "type": "coffee",
+      "drinkIds": [
+        "85cafe-americano",
+        "85cafe-latte",
+        "85cafe-signature",
+        "85cafe-strong-signature",
+        "85cafe-sea-salt-coffee",
+        "85cafe-lychee-americano"
+      ]
+    },
+    {
+      "slug": "citycafe",
+      "name": "CITY CAFE",
+      "type": "coffee",
+      "drinkIds": [
+        "citycafe-americano",
+        "citycafe-latte",
+        "citycafe-strong-americano",
+        "citycafe-strong-latte",
+        "citycafe-rich-milk-latte",
+        "citycafe-oat-latte"
+      ]
+    },
+    {
+      "slug": "letscafe",
+      "name": "Let’s Café",
+      "type": "coffee",
+      "drinkIds": [
+        "letscafe-americano",
+        "letscafe-latte",
+        "letscafe-strong-americano",
+        "letscafe-strong-latte",
+        "letscafe-oat-latte",
+        "letscafe-ice-brick-latte"
+      ]
+    },
+    {
+      "slug": "mccafe",
+      "name": "McCafé",
+      "type": "coffee",
+      "drinkIds": [
+        "mccafe-americano",
+        "mccafe-latte",
+        "mccafe-cappuccino",
+        "mccafe-select-americano",
+        "mccafe-select-latte",
+        "mccafe-honey-black-tea"
+      ]
+    }
+  ],
+  "onboardingRotation": {
+    "anchorDate": "2026-11-18",
+    "brandsPerDay": 3,
+    "brandSlugs": [
+      "guiji",
+      "wootea",
+      "tptea",
+      "comebuy",
+      "unocha",
+      "85cafe",
+      "citycafe",
+      "letscafe",
+      "mccafe"
+    ],
+    "rule": "Use Taipei calendar days since anchorDate; start at (dayOffset * brandsPerDay) modulo brandSlugs.length and take brandsPerDay consecutive brands. Additionally cover at least one tea and one coffee brand, favoring fewer verified samples."
+  },
+  "dailyLimits": {
+    "originalPosts": 12,
+    "additions": 5
+  },
+  "evidencePolicy": "Read the original first-hand post and verify the current official menu. Preserve all existing records; no qualified new evidence means no change to reviewedOn. Respect access restrictions."
+}
