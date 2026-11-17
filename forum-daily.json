@@ -1,0 +1,29 @@
+{
+  "reviewedOn": "2026-11-17",
+  "records": [
+    {
+      "drinkId": "louisa-coffee-latte",
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/boba/p/261346441",
+      "date": null,
+      "stance": "positive",
+      "note": "試喝熱無糖版本，認為咖啡和牛奶比例適中，也喜歡奶泡細滑。"
+    },
+    {
+      "drinkId": "louisa-specialty-latte",
+      "platform": "Mobile01",
+      "url": "https://m.mobile01.com/topicdetail.php?f=640&t=6525630",
+      "date": "2022-01-16",
+      "stance": "negative",
+      "note": "比較多家拿鐵後，發文者覺得當時喝到的莊園級拿鐵奶味蓋過咖啡，尾段略苦。同飲者也覺得苦味偏重。"
+    },
+    {
+      "drinkId": "starbucks-caramel-macchiato",
+      "platform": "Mobile01",
+      "url": "https://www.mobile01.com/topicdetail.php?f=37&t=2247544",
+      "date": "2011-07-11",
+      "stance": "positive",
+      "note": "發文者點了熱焦糖瑪奇朵，表示喜歡。這是較早期的點餐心得。"
+    }
+  ]
+}
