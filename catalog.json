@@ -1,0 +1,974 @@
+{
+  "verifiedOn": "2026-11-17",
+  "shops": [
+    {
+      "slug": "milksha",
+      "name": "迷客夏",
+      "type": "tea",
+      "aliases": [
+        "Milksha",
+        "迷克夏"
+      ],
+      "officialUrl": "https://www.milksha.com/products.php",
+      "region": "北部一般門市",
+      "verifiedOn": "2026-11-17",
+      "drinks": [
+        {
+          "id": "milksha-jasmine",
+          "name": "茉莉原淬綠茶",
+          "base": "green-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.milksha.com/products.php",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "milksha-light-oolong",
+          "name": "原片初露青茶",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.milksha.com/products.php",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "milksha-amber-oolong",
+          "name": "琥珀高峰烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://www.milksha.com/products.php",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "milksha-buckwheat",
+          "name": "輕纖蕎麥茶",
+          "base": "buckwheat",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://www.milksha.com/products.php",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "milksha-barley",
+          "name": "焙香決明大麥",
+          "base": "barley",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://www.milksha.com/products.php",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "milksha-earl-grey-latte",
+          "name": "伯爵紅茶拿鐵",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.milksha.com/products.php",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "milksha-taisho-latte",
+          "name": "大正紅茶拿鐵",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.milksha.com/products.php",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "milksha-boba-taisho",
+          "name": "珍珠大正紅茶拿鐵",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "boba",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.milksha.com/products.php",
+          "sweetness": "unknown",
+          "order": ""
+        },
+        {
+          "id": "milksha-orange-green",
+          "name": "柳丁綠茶",
+          "base": "green-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.milksha.com/products.php",
+          "sweetness": "unknown",
+          "order": "官網菜單標示冷飲限定"
+        },
+        {
+          "id": "milksha-pomelo-green",
+          "name": "香柚綠茶",
+          "base": "green-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.milksha.com/products.php",
+          "sweetness": "unknown",
+          "order": "官網菜單標示冷飲限定"
+        }
+      ]
+    },
+    {
+      "slug": "macu",
+      "name": "麻古茶坊",
+      "type": "tea",
+      "aliases": [
+        "麻古",
+        "MACU"
+      ],
+      "officialUrl": "https://www.macutea.com.tw/drink.php?area=5&cat=9",
+      "region": "北部一般門市",
+      "verifiedOn": "2026-11-17",
+      "drinks": [
+        {
+          "id": "macu-jinxuan",
+          "name": "高山金萱茶",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.macutea.com.tw/drink.php?area=5&cat=9",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "macu-emerald",
+          "name": "翡翠綠茶",
+          "base": "green-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.macutea.com.tw/drink.php?area=5&cat=9",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "macu-ceylon",
+          "name": "錫蘭紅茶",
+          "base": "black-tea",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://www.macutea.com.tw/drink.php?area=5&cat=9",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "macu-red-oolong",
+          "name": "紅萱烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://www.macutea.com.tw/drink.php?area=5&cat=9",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "macu-black-latte",
+          "name": "紅茶拿鐵",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.macutea.com.tw/drink.php?area=5&cat=7",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "macu-boba-latte",
+          "name": "波霸紅茶拿鐵",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "boba"
+          ],
+          "sourceUrl": "https://www.macutea.com.tw/drink.php?area=5&cat=7",
+          "sweetness": "unknown",
+          "order": ""
+        },
+        {
+          "id": "macu-passion-green",
+          "name": "百香綠茶",
+          "base": "green-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.macutea.com.tw/drink.php?area=5&cat=10",
+          "sweetness": "unknown",
+          "order": ""
+        },
+        {
+          "id": "macu-orange-jasmine",
+          "name": "翡翠柳橙",
+          "base": "green-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.macutea.com.tw/drink.php?area=5&cat=10",
+          "sweetness": "unknown",
+          "order": ""
+        },
+        {
+          "id": "macu-grapefruit-jasmine",
+          "name": "柚香翡翠",
+          "base": "green-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.macutea.com.tw/drink.php?area=5&cat=10",
+          "sweetness": "unknown",
+          "order": ""
+        }
+      ]
+    },
+    {
+      "slug": "chingshin",
+      "name": "清心福全",
+      "type": "tea",
+      "aliases": [
+        "清心",
+        "Ching Shin"
+      ],
+      "officialUrl": "https://www.chingshin.tw/product.php",
+      "region": "品牌官網產品，販售依門市",
+      "verifiedOn": "2026-11-17",
+      "drinks": [
+        {
+          "id": "chingshin-oolong-green",
+          "name": "烏龍綠茶（翡翠烏龍）",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.chingshin.tw/product.php",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "chingshin-green",
+          "name": "特級綠茶",
+          "base": "green-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.chingshin.tw/product.php",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "chingshin-ceylon",
+          "name": "錫蘭紅茶",
+          "base": "black-tea",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://www.chingshin.tw/product.php",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "chingshin-puer",
+          "name": "特選普洱",
+          "base": "puer-tea",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://www.chingshin.tw/product.php",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "chingshin-pearl-milk",
+          "name": "珍珠奶茶／波霸奶茶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "boba",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.chingshin.tw/product.php",
+          "sweetness": "unknown",
+          "order": ""
+        },
+        {
+          "id": "chingshin-oolong-milk",
+          "name": "烏龍奶茶",
+          "base": "oolong",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.chingshin.tw/product.php",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "chingshin-yogurt-green",
+          "name": "優多綠茶",
+          "base": "green-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.chingshin.tw/product.php",
+          "sweetness": "unknown",
+          "order": ""
+        },
+        {
+          "id": "chingshin-passion-green",
+          "name": "百香果綠茶",
+          "base": "green-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.chingshin.tw/product.php",
+          "sweetness": "unknown",
+          "order": ""
+        }
+      ]
+    },
+    {
+      "slug": "kebuke",
+      "name": "可不可熟成紅茶",
+      "type": "tea",
+      "aliases": [
+        "可不可",
+        "可不可熟成茶行",
+        "KEBUKE"
+      ],
+      "officialUrl": "https://kebuke.com/menu/",
+      "region": "北部及離島一般門市",
+      "verifiedOn": "2026-11-17",
+      "drinks": [
+        {
+          "id": "kebuke-black",
+          "name": "熟成紅茶",
+          "base": "black-tea",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://kebuke.com/menu/",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "kebuke-green",
+          "name": "春芽綠茶",
+          "base": "green-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://kebuke.com/menu/",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "kebuke-oolong",
+          "name": "茶花輕焙烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://kebuke.com/menu/",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "kebuke-black-latte",
+          "name": "熟成歐蕾",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://kebuke.com/menu/",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "kebuke-boba-latte",
+          "name": "白玉歐蕾",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "boba"
+          ],
+          "sourceUrl": "https://kebuke.com/menu/",
+          "sweetness": "unknown",
+          "order": ""
+        },
+        {
+          "id": "kebuke-lemon-black",
+          "name": "熟檸紅茶",
+          "base": "black-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://kebuke.com/menu/",
+          "sweetness": "unknown",
+          "order": ""
+        },
+        {
+          "id": "kebuke-lemon-green",
+          "name": "春檸綠茶",
+          "base": "green-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://kebuke.com/menu/",
+          "sweetness": "unknown",
+          "order": ""
+        }
+      ]
+    },
+    {
+      "slug": "daming",
+      "name": "大茗本位製茶堂",
+      "type": "tea",
+      "aliases": [
+        "大茗",
+        "Daming Tea"
+      ],
+      "officialUrl": "https://www.damingtea.com.tw/products/67/",
+      "region": "北部一般門市",
+      "verifiedOn": "2026-11-17",
+      "drinks": [
+        {
+          "id": "daming-jade-oolong",
+          "name": "玉露青茶",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.damingtea.com.tw/products/60/",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "daming-osmanthus",
+          "name": "桂花青茶",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.damingtea.com.tw/products/60/",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "daming-roasted-oolong",
+          "name": "炭燒青茶",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://www.damingtea.com.tw/products/60/",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "daming-emerald",
+          "name": "翡翠綠茶",
+          "base": "green-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.damingtea.com.tw/products/61/",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "daming-red-jade",
+          "name": "紅玉紅茶",
+          "base": "black-tea",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://www.damingtea.com.tw/products/61/",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "daming-buckwheat",
+          "name": "熟成油切蕎麥",
+          "base": "buckwheat",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://www.damingtea.com.tw/products/61/",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "daming-black-latte",
+          "name": "紅茶拿鐵",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.damingtea.com.tw/products/65/",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        },
+        {
+          "id": "daming-tieguanyin-latte",
+          "name": "鐵觀音拿鐵",
+          "base": "oolong",
+          "tags": [
+            "milk",
+            "roasted",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.damingtea.com.tw/products/65/",
+          "sweetness": "adjustable",
+          "order": "甜度可調，含無糖選項"
+        }
+      ]
+    },
+    {
+      "slug": "louisa",
+      "name": "路易莎咖啡",
+      "type": "coffee",
+      "aliases": [
+        "路易莎",
+        "LOUISA COFFEE"
+      ],
+      "officialUrl": "https://www.louisacoffee.co/products_list/10",
+      "region": "品牌台灣官網品項，實際供應依門市",
+      "verifiedOn": "2026-11-17",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "louisa-specialty-latte",
+          "name": "莊園級拿鐵",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.louisacoffee.co/products_list/10",
+          "order": "有冰、熱兩種",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "louisa-specialty-americano",
+          "name": "莊園級美式",
+          "base": "coffee",
+          "tags": [],
+          "sourceUrl": "https://www.louisacoffee.co/products_list/10",
+          "order": "有冰、熱兩種",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "louisa-piccolo",
+          "name": "特濃小卡布",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.louisacoffee.co/products_list/10",
+          "order": "僅供內用熱飲",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "louisa-oat-latte",
+          "name": "燕麥拿鐵",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.louisacoffee.co/products_list/8",
+          "order": "有冰、熱兩種",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "louisa-coffee-latte",
+          "name": "咖啡拿鐵",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.louisacoffee.co/products_list/8",
+          "order": "有冰、熱兩種",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "louisa-farm-latte",
+          "name": "小農經典拿鐵",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.louisacoffee.co/products_list/11",
+          "order": "有冰、熱兩種",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "louisa-farm-milk-tea",
+          "name": "小農雪點鮮奶茶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.louisacoffee.co/products_list/11",
+          "order": "有冰、熱兩種，官網標示含黑糖",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "starbucks",
+      "name": "星巴克",
+      "type": "coffee",
+      "aliases": [
+        "Starbucks",
+        "台灣星巴克"
+      ],
+      "officialUrl": "https://www.starbucks.com.tw/products/drinks/view.jspx?catId=1",
+      "region": "品牌台灣官網品項，實際供應依門市",
+      "verifiedOn": "2026-11-17",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "starbucks-americano",
+          "name": "美式咖啡",
+          "base": "coffee",
+          "tags": [],
+          "sourceUrl": "https://www.starbucks.com.tw/products/drinks/product.jspx?catId=116&id=693",
+          "order": "原配方無糖；可另加風味糖漿",
+          "sweetness": "unsweetened"
+        },
+        {
+          "id": "starbucks-latte",
+          "name": "那堤",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.starbucks.com.tw/products/drinks/view.jspx?catId=1",
+          "order": "有冰、熱兩種",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "starbucks-caramel-macchiato",
+          "name": "焦糖瑪奇朵",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.starbucks.com.tw/products/drinks/view.jspx?catId=1",
+          "order": "有冰、熱兩種",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "starbucks-flat-white",
+          "name": "馥列白",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.starbucks.com.tw/products/drinks/view.jspx?catId=1",
+          "order": "有冰、熱兩種",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "starbucks-cappuccino",
+          "name": "卡布奇諾",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.starbucks.com.tw/products/drinks/view.jspx?catId=1",
+          "order": "台灣官網列於熱飲",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "starbucks-espresso",
+          "name": "濃縮咖啡",
+          "base": "coffee",
+          "tags": [],
+          "sourceUrl": "https://www.starbucks.com.tw/products/drinks/view.jspx?catId=1",
+          "order": "台灣官網列於熱飲",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "starbucks-hazelnut-latte",
+          "name": "冰榛果風味那堤",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.starbucks.com.tw/coffee/sweet-as-you-like/index.jspx",
+          "order": "官網示範可調整榛果風味糖漿甜度",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "cama",
+      "name": "cama café",
+      "type": "coffee",
+      "aliases": [
+        "CAMA",
+        "咖碼",
+        "cama 現烘咖啡"
+      ],
+      "officialUrl": "https://www.camacafe.com/Menu/1",
+      "region": "品牌台灣官網品項，實際供應依門市",
+      "verifiedOn": "2026-11-17",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "cama-gold-latte",
+          "name": "CAMA金獎拿鐵",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.camacafe.com/Menu/1",
+          "order": "",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "cama-light-latte",
+          "name": "微韻輕拿鐵",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.camacafe.com/Menu/1",
+          "order": "",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "cama-gold-americano",
+          "name": "CAMA金獎美式",
+          "base": "coffee",
+          "tags": [],
+          "sourceUrl": "https://www.camacafe.com/Menu/1",
+          "order": "",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "cama-sicilian",
+          "name": "西西里咖啡",
+          "base": "coffee",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.camacafe.com/Menu/1",
+          "order": "官網標示冰飲",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "cama-oat-latte",
+          "name": "燕麥拿鐵",
+          "base": "coffee",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.camacafe.com/Menu/1",
+          "order": "",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "cama-espresso",
+          "name": "濃縮咖啡",
+          "base": "coffee",
+          "tags": [],
+          "sourceUrl": "https://www.camacafe.com/Menu/1",
+          "order": "官網標示熱飲",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "cama-golden-mandheling",
+          "name": "黃金曼特寧",
+          "base": "coffee",
+          "tags": [
+            "roasted"
+          ],
+          "sourceUrl": "https://www.camacafe.com/Menu/1",
+          "order": "屬精品手沖，品牌不提供加糖服務",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "dejeng",
+      "name": "得正",
+      "type": "tea",
+      "aliases": [
+        "Dejeng",
+        "得正 OOLONG TEA PROJECT"
+      ],
+      "officialUrl": "https://dejeng.com/drinks/",
+      "region": "品牌台灣官網品項，實際供應依門市",
+      "verifiedOn": "2026-11-17",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "dejeng-spring-oolong",
+          "name": "春烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://dejeng.com/drinks/",
+          "order": "",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "dejeng-roasted-oolong",
+          "name": "焙烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://dejeng.com/drinks/",
+          "order": "",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "dejeng-lemon-oolong",
+          "name": "檸檬春烏龍",
+          "base": "oolong",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://dejeng.com/drinks/",
+          "order": "",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "dejeng-cane-oolong",
+          "name": "甘蔗春烏龍",
+          "base": "oolong",
+          "tags": [
+            "refreshing"
+          ],
+          "sourceUrl": "https://dejeng.com/drinks/",
+          "order": "",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "dejeng-cheese-spring",
+          "name": "芝士奶蓋春烏龍",
+          "base": "oolong",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://dejeng.com/drinks/",
+          "order": "",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "dejeng-cheese-roasted",
+          "name": "芝士奶蓋焙烏龍",
+          "base": "oolong",
+          "tags": [
+            "milk",
+            "roasted",
+            "creamy"
+          ],
+          "sourceUrl": "https://dejeng.com/drinks/",
+          "order": "",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "dejeng-roasted-milk",
+          "name": "焙烏龍鮮奶",
+          "base": "oolong",
+          "tags": [
+            "milk",
+            "roasted",
+            "creamy"
+          ],
+          "sourceUrl": "https://dejeng.com/drinks/",
+          "order": "",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "dejeng-golden-boba-milk",
+          "name": "黃金珍珠奶綠",
+          "base": "green-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "boba"
+          ],
+          "sourceUrl": "https://dejeng.com/drinks/",
+          "order": "",
+          "sweetness": "unknown"
+        }
+      ]
+    }
+  ]
+}
