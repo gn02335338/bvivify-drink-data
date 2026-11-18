@@ -96,7 +96,22 @@
       "date": null,
       "stance": "positive",
       "note": "作者以台中、太平飲茶經驗推薦功夫紅茶，覺得茶味厚但不膩；平常偏好一分糖微冰，未確認此杯確切糖冰、加料或門市。"
+    },
+    {
+      "drinkId": "guiji-33-king",
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/boba/p/238737218",
+      "date": null,
+      "stance": "positive",
+      "note": "作者自述常點三十三茶王，覺得帶金萱奶香；門市位於台南，糖度、冰量與加料未提。"
+    },
+    {
+      "drinkId": "mccafe-americano",
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/fastfood/p/253362037",
+      "date": null,
+      "stance": "negative",
+      "note": "作者早餐加購美式後覺得苦酸、難以喝完；未交代冰熱、糖度或門市，屬較早期經驗。"
     }
   ]
 }
-
