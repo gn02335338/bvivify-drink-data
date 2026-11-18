@@ -6,7 +6,7 @@
 
 ChatGPT 網頁版雲端工作每天台灣時間 09:30，使用既有訂閱提供的搜尋與連接工具逐篇查證。電腦與桌面 App 關閉時仍可執行。訂閱額度耗盡或來源受阻時，保留目前資料並回報，禁止另購額度、自動加值、外部模型或搜尋 API。
 
-- `catalog.json`：38 個品牌、244 個第一手菜單品項；依 `sourceUrl` 回查現行品項。
+- `catalog.json`：38 個品牌、2006 個第一手菜單品項；依 `sourceUrl` 回查現行品項。
 - `research-plan.json`：全部38家監測清單，以及29家擴充品牌的每日輪替。新增品牌同樣是每日搜尋與驗證的對象。
 - `forum-seed.json`：網站內建的口碑基準；只讀，避免和增量重複。
 - `forum-daily.json`：`{ reviewedOn, records }` 格式的累積增量。保留既有每筆資料，只能追加已核對原帖。
@@ -66,6 +66,22 @@ node validate.mjs /absolute/path/candidate.json
 
 ## 漏收品牌補齊
 
-2026-11-18補齊參考清單中20家漏收品牌，共118杯，目前38家244杯；原18家126杯保留不刪。包括50嵐、CoCo、一沐日、萬波等。50嵐與CoCo使用已實讀的台灣門市自行上架點餐菜單；天仁與UG使用業者在政府平台自行公開登錄的品項。地區、店型及菜單版本均列在catalog；不推定全台一致供應。
+2026-11-18補齊參考清單中20家漏收品牌，共118杯，當批累積38家244杯；原18家126杯保留不刪。包括50嵐、CoCo、一沐日、萬波等。50嵐與CoCo使用已實讀的台灣門市自行上架點餐菜單；天仁與UG使用業者在政府平台自行公開登錄的品項。地區、店型及菜單版本均列在catalog；不推定全台一致供應。
 
 本批新增19筆基準紀錄，來自16篇實讀原串；已有資料不足的品牌仍列入每日輪替，不造好評。擴充輪替29家，每日3家並補手搖／咖啡，總數與費用限制不變；日期與增量檔沿用現行紀錄。來源見catalog-missing-a.md、catalog-missing-b.md、catalog-missing-c.md。
+
+## 2026-11-19 品項擴充與每日目標
+
+原38家244杯保留，新增1762款，目前共38家2006款。五十嵐採台北縣總店門市菜單，共95款；各品牌區域、店型、季節與版本按catalog的region和各杯order處理，不當成全台今日庫存。完整範圍見[收錄檢查表](menu-coverage-20261119.md)及四份menu-expansion來源文件。
+
+research-plan.json版本2的expandedDrinkRotation包含所有1762個新增ID，按品牌交錯，每天先取3款，再接onboardingRotation與手搖／咖啡範圍，兩種輪替共用12篇原帖、5筆合格新增的總預算。僅為研究目標，沒有合格新原帖時不更新reviewedOn。
+
+在雲端臨時目錄準備同一公開倉庫的完整JSON和工具後，執行：
+
+```sh
+node research-focus.mjs YYYY-MM-DD
+```
+
+日期用當輪台灣日曆日；不傳參數時工具以Asia/Taipei計算。唯讀工具解析完整catalog、research-plan、forum-seed與forum-daily，輸出總數、本日新飲品、輪替品牌、來源及已有樣本數的小清單，避免將大型目錄全文印入對話。輸出不是驗證結果；仍要逐篇實讀與執行validate.mjs，只有forum-daily.json與run-status.json可由每日任務寫入。依賴檔為validation/research-focus.mjs及validation/forum-analysis.mjs。
+
+本輪沒有追加論壇假樣本、沒有更動論壇核對日期；未知甜度維持未知。所有原帖保留與訂閱額度限制維持。
