@@ -2,6 +2,132 @@
   "verifiedOn": "2026-11-18",
   "shops": [
     {
+      "slug": "50lan",
+      "name": "50嵐",
+      "type": "tea",
+      "aliases": [
+        "五十嵐",
+        "50 嵐",
+        "50Lan",
+        "50岚",
+        "五十岚"
+      ],
+      "officialUrl": "https://order.nidin.shop/menu/1605",
+      "region": "台北縣總店（板橋）官方點餐菜單，作北區參考；各區品項不同",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "menuSourceLabel": "門市菜單",
+      "drinks": [
+        {
+          "id": "50lan-pearl-coconut",
+          "name": "四季春珍波椰（1號）",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "boba",
+            "topping"
+          ],
+          "sourceUrl": "https://order.nidin.shop/menu/1605",
+          "description": "四季春茶搭配珍波椰咀嚼配料，茶香與配料口感並行。",
+          "order": "官方門市品名為「1四季春珍波椰」；配料本身可能有甜味，甜度選項尚未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "50lan-icecream-black",
+          "name": "冰淇淋紅茶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "topping"
+          ],
+          "sourceUrl": "https://order.nidin.shop/menu/1605",
+          "description": "紅茶搭配冰淇淋，茶香與冰淇淋的奶香放在同一杯。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "50lan-boba-milk",
+          "name": "波霸奶茶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "boba"
+          ],
+          "sourceUrl": "https://order.nidin.shop/menu/1605",
+          "description": "奶茶搭配大顆波霸，是奶香與配料一起喝的經典款。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "50lan-black-latte",
+          "name": "紅茶拿鐵",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://order.nidin.shop/menu/1605",
+          "description": "以紅茶搭配奶香的拿鐵，茶味與奶味一同呈現。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "50lan-roasted-oolong-latte",
+          "name": "重焙烏龍拿鐵",
+          "base": "oolong",
+          "tags": [
+            "milk",
+            "creamy",
+            "roasted"
+          ],
+          "sourceUrl": "https://order.nidin.shop/menu/1605",
+          "description": "以重焙烏龍搭配奶香，風味方向著重烏龍與焙香。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "50lan-four-seasons",
+          "name": "四季春青茶",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://order.nidin.shop/menu/1605",
+          "description": "四季春青茶的純茶款，以茶本身的香氣為重點。",
+          "order": "台北縣總店大杯選項可選無糖及冰熱，其他區域依門市",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "50lan-jasmine",
+          "name": "茉莉綠茶",
+          "base": "green-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://order.nidin.shop/menu/1605",
+          "description": "茉莉香氣搭配綠茶，走清香型的純茶路線。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "50lan-golden-oolong",
+          "name": "黃金烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://order.nidin.shop/menu/1605",
+          "description": "以烏龍茶本身為主角的純茶款，與奶茶系列分開。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
       "slug": "milksha",
       "name": "迷客夏",
       "type": "tea",
@@ -1769,6 +1895,1768 @@
           "sourceUrl": "https://www.mcdonalds.com/tw/zh-tw/product/honey-black-tea-iced.html",
           "order": "官網列冰飲，原配方含蜂蜜；甜度調整未核對",
           "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "aniceholiday",
+      "name": "一沐日",
+      "type": "tea",
+      "aliases": [
+        "A Nice Holiday",
+        "ANICEHOLIDAY"
+      ],
+      "officialUrl": "https://www.aniceholiday.com.tw/beverages/store/6",
+      "region": "官方新竹光復店現行菜單；其他門市供應可能不同",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "aniceholiday-rice-tea",
+          "name": "糯米香茶",
+          "base": "blended-tea",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://www.aniceholiday.com.tw/beverages/store/6",
+          "description": "以糯米香為風味方向的茶款，與一般青茶分開列項。",
+          "order": "此門市官方甜度表列有無糖選項；冰量可選",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "aniceholiday-taiwan-milk",
+          "name": "逮丸奶茶",
+          "base": "blended-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "topping"
+          ],
+          "sourceUrl": "https://www.aniceholiday.com.tw/beverages/store/6",
+          "description": "品牌香醇系列的逮丸奶茶，重點在奶茶與加料的搭配。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "aniceholiday-buckwheat-cream",
+          "name": "奶蓋蕎麥茶",
+          "base": "buckwheat",
+          "tags": [
+            "milk",
+            "creamy",
+            "roasted"
+          ],
+          "sourceUrl": "https://www.aniceholiday.com.tw/beverages/store/6",
+          "description": "蕎麥茶搭配芝士奶蓋，穀物茶香和奶蓋風味並行。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "aniceholiday-osmanthus-lemon-jelly",
+          "name": "粉粿桂花檸檬",
+          "base": "blended-tea",
+          "tags": [
+            "fruit",
+            "jelly",
+            "topping",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.aniceholiday.com.tw/beverages/store/6",
+          "description": "桂花與檸檬風味搭配粉粿，是附咀嚼配料的調飲。",
+          "order": "官方僅列正常或半糖兩種選擇；不能視為可點無糖",
+          "sweetness": "fixed"
+        },
+        {
+          "id": "aniceholiday-island-black",
+          "name": "島韻紅茶",
+          "base": "black-tea",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://www.aniceholiday.com.tw/beverages/store/6",
+          "description": "島韻系列的紅茶基本款，以純紅茶風味為主。",
+          "order": "此門市官方甜度表列有無糖選項；冰量可選",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "aniceholiday-high-mountain",
+          "name": "手採高山青",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.aniceholiday.com.tw/beverages/store/6",
+          "description": "以高山青茶為主角的原味茶，風味方向偏清香。",
+          "order": "此門市官方甜度表列有無糖選項；冰量可選",
+          "sweetness": "adjustable"
+        }
+      ]
+    },
+    {
+      "slug": "hechalou",
+      "name": "鶴茶樓",
+      "type": "tea",
+      "aliases": [
+        "Hechalou",
+        "Hechaloutea",
+        "鶴茶樓二代店"
+      ],
+      "officialUrl": "https://hechaloutea.com.tw/new_hcl_2_07/",
+      "region": "2026年10月公布的鶴茶樓2.0二代店系列，原店菜單可能不同",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "hechalou-white-oolong",
+          "name": "白鶴烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://hechaloutea.com.tw/new_hcl_2_07/",
+          "description": "官方列為輕焙火烏龍，以花香方向呈現純茶風味。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "hechalou-black-oolong",
+          "name": "黑鶴烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://hechaloutea.com.tw/new_hcl_2_07/",
+          "description": "官方列為重焙火烏龍，風味方向偏炭焙香。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "hechalou-red-oolong",
+          "name": "紅鶴烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://hechaloutea.com.tw/new_hcl_2_07/",
+          "description": "官方列為中焙火烏龍，茶香之外帶焙香風味。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "hechalou-peach-white",
+          "name": "蜜桃白鶴烏龍",
+          "base": "oolong",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://hechaloutea.com.tw/new_hcl_2_07/",
+          "description": "蜜桃風味搭配白鶴烏龍，是烏龍茶底的水果茶。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "hechalou-lychee-white",
+          "name": "荔枝白鶴烏龍",
+          "base": "oolong",
+          "tags": [
+            "fruit",
+            "jelly",
+            "topping"
+          ],
+          "sourceUrl": "https://hechaloutea.com.tw/new_hcl_2_07/",
+          "description": "荔枝風味搭配白鶴烏龍，官方另標示含茶凍。",
+          "order": "官方標示含茶凍；甜度、冰量與供應依門市",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "truedan",
+      "name": "珍煮丹",
+      "type": "tea",
+      "aliases": [
+        "TRUEDAN",
+        "Truedan"
+      ],
+      "officialUrl": "https://www.truedan.com.tw/product.php",
+      "region": "品牌台灣一般門市菜單，實際供應依門市",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "truedan-brown-boba-milk",
+          "name": "黑糖珍珠鮮奶",
+          "base": "milk",
+          "tags": [
+            "milk",
+            "creamy",
+            "boba"
+          ],
+          "sourceUrl": "https://www.truedan.com.tw/product.php",
+          "description": "黑糖珍珠搭配鮮奶，重點在黑糖風味與珍珠口感。",
+          "order": "含黑糖珍珠與鮮奶；不當成無糖款，甜冰依門市",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "truedan-brown-jelly-milk",
+          "name": "黑糖粉粿鮮奶",
+          "base": "milk",
+          "tags": [
+            "milk",
+            "creamy",
+            "jelly",
+            "topping"
+          ],
+          "sourceUrl": "https://www.truedan.com.tw/product.php",
+          "description": "鮮奶搭配黑糖粉粿，奶香之外多了粉粿咀嚼口感。",
+          "order": "含黑糖粉粿與鮮奶；不當成無糖款，甜冰依門市",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "truedan-pearl-jelly-latte",
+          "name": "波波粿粿鮮奶茶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "boba",
+            "jelly",
+            "topping"
+          ],
+          "sourceUrl": "https://www.truedan.com.tw/product.php",
+          "description": "錫蘭紅茶與鮮奶搭配黑糖珍珠、粉粿，配料口感較豐富。",
+          "order": "含黑糖粉粿、黑糖珍珠、鮮奶與錫蘭紅茶；甜冰依門市",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "truedan-shanshan-latte",
+          "name": "姍姍紅茶拿鐵",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.truedan.com.tw/product.php",
+          "description": "以烏瓦錫蘭紅茶搭配鮮奶，風味重點在紅茶與奶香。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "truedan-thai-milk",
+          "name": "泰泰鮮奶茶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.truedan.com.tw/product.php",
+          "description": "特製泰式奶茶粉搭配鮮奶，呈現泰式奶茶風味。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "truedan-spring-tea",
+          "name": "不知春",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.truedan.com.tw/product.php",
+          "description": "品牌以台灣四季春調製的純茶款，茶香為主。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "wanpo",
+      "name": "萬波島嶼紅茶",
+      "type": "tea",
+      "aliases": [
+        "萬波",
+        "Wanpo",
+        "Wanpo Tea Shop"
+      ],
+      "officialUrl": "https://www.wanpotea.com/drink",
+      "region": "台灣官網北中南一般門市菜單，百貨與特殊門市不同",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "wanpo-island-black",
+          "name": "島嶼紅茶",
+          "base": "black-tea",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://www.wanpotea.com/drink",
+          "description": "以阿薩姆紅茶風味為主的品牌島嶼紅茶基本款。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "wanpo-jinxuan",
+          "name": "金萱青茶",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.wanpotea.com/drink",
+          "description": "以金萱青茶為主角的純茶款，風味方向偏清香。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "wanpo-liya-oolong",
+          "name": "麗雅烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://www.wanpotea.com/drink",
+          "description": "品牌的黃金烏龍純茶款，以烏龍茶風味為重點。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "wanpo-apple-island",
+          "name": "紅蘋島嶼",
+          "base": "black-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.wanpotea.com/drink",
+          "description": "蘋果風味搭配島嶼紅茶，是紅茶底的果香茶飲。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "wanpo-boba-milk",
+          "name": "波霸奶茶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "boba"
+          ],
+          "sourceUrl": "https://www.wanpotea.com/drink",
+          "description": "奶茶搭配波霸，奶香與咀嚼配料放在同一杯。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "wanpo-cream-black",
+          "name": "奶蓋紅茶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.wanpotea.com/drink",
+          "description": "島嶼紅茶搭配奶蓋，紅茶香與奶蓋風味並行。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "coco",
+      "name": "CoCo都可",
+      "type": "tea",
+      "aliases": [
+        "CoCo",
+        "都可",
+        "CoCo都可茶飲"
+      ],
+      "officialUrl": "https://order.nidin.shop/menu/22899",
+      "region": "官方信義永吉店線上菜單，其他門市品項與供應依現場",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "menuSourceLabel": "門市菜單",
+      "drinks": [
+        {
+          "id": "coco-passion-duo",
+          "name": "百香雙響炮",
+          "base": "green-tea",
+          "tags": [
+            "fruit",
+            "refreshing",
+            "boba",
+            "topping"
+          ],
+          "sourceUrl": "https://order.nidin.shop/menu/22899",
+          "description": "以百香果風味為重點的雙響炮調飲，搭配咀嚼配料。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "coco-three-brothers",
+          "name": "奶茶三兄弟",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "boba",
+            "topping"
+          ],
+          "sourceUrl": "https://order.nidin.shop/menu/22899",
+          "description": "奶茶搭配多種咀嚼配料，配料內容以門市菜單為準。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "coco-pearl-milk",
+          "name": "珍珠奶茶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "boba"
+          ],
+          "sourceUrl": "https://order.nidin.shop/menu/22899",
+          "description": "奶茶搭配珍珠，風味重點在奶香與珍珠口感。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "coco-jasmine",
+          "name": "茉莉綠茶",
+          "base": "green-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://order.nidin.shop/menu/22899",
+          "description": "茉莉香氣搭配綠茶，以純茶與茉莉茶香為主。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "coco-four-seasons",
+          "name": "四季春青茶",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://order.nidin.shop/menu/22899",
+          "description": "以四季春青茶為主角的純茶款，與調飲系列分開。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "coco-english-milk",
+          "name": "英式鮮奶茶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://order.nidin.shop/menu/22899",
+          "description": "英式鮮奶茶的茶奶搭配款，以紅茶與奶香為重點。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "dayungs",
+      "name": "大苑子",
+      "type": "tea",
+      "aliases": [
+        "Dayungs",
+        "Da Yuan Zi"
+      ],
+      "officialUrl": "https://www.dayungs.com/item_list-html/",
+      "region": "北部一般門市，官方菜單有效期2026/11/13–11/22；果物依產季及門市",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "dayungs-fruit-tea",
+          "name": "大苑子水果茶",
+          "base": "blended-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.dayungs.com/item_list-html/",
+          "description": "品牌水果茶系列的招牌款，選擇以果香搭配茶味的方向。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "dayungs-lemon-spring-oolong",
+          "name": "台灣檸檬春烏龍",
+          "base": "oolong",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.dayungs.com/item_list-html/",
+          "description": "台灣檸檬搭配春烏龍，讓檸檬香與烏龍茶香一起呈現。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "dayungs-jade-lemon",
+          "name": "翡翠檸檬",
+          "base": "green-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.dayungs.com/item_list-html/",
+          "description": "檸檬搭配翡翠綠茶，是果茶系列中的檸檬綠茶款。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "dayungs-passion-green",
+          "name": "埔里百香果綠",
+          "base": "green-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.dayungs.com/item_list-html/",
+          "description": "以埔里百香果搭配綠茶，重點在百香果的酸香。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "dayungs-grapefruit-green",
+          "name": "鮮搾葡萄柚綠",
+          "base": "green-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.dayungs.com/item_list-html/",
+          "description": "葡萄柚汁搭配綠茶，走柑橘果香與茶香的組合。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "chunshuitang",
+      "name": "春水堂",
+      "type": "tea",
+      "aliases": [
+        "Chun Shui Tang",
+        "春水堂人文茶館"
+      ],
+      "officialUrl": "https://www.chunshuitang.com.tw/drink/",
+      "region": "台灣官網現行品項，實際供應與糖冰選項依門市",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "chunshuitang-pearl-milk",
+          "name": "珍珠奶茶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "boba"
+          ],
+          "sourceUrl": "https://www.chunshuitang.com.tw/drink/",
+          "description": "以紅茶調成奶茶，再加入珍珠，是品牌的經典品項。",
+          "order": "官網說明使用奶精；糖冰及配料選項依門市",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "chunshuitang-uva-iced",
+          "name": "頂級烏瓦紅茶凍飲",
+          "base": "black-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.chunshuitang.com.tw/drink/",
+          "description": "使用烏瓦紅茶製作的凍飲，以紅茶香氣為主角。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "chunshuitang-amber-pearl-latte",
+          "name": "黑糖琥珀珍珠拿鐵",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "boba"
+          ],
+          "sourceUrl": "https://www.chunshuitang.com.tw/drink/",
+          "description": "紅茶與鮮奶搭配黑糖珍珠，兼具茶香、奶香與咀嚼感。",
+          "order": "官網標示冰量固定；甜度選項尚未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "chunshuitang-black-latte",
+          "name": "紅茶拿鐵",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.chunshuitang.com.tw/drink/",
+          "description": "紅茶搭配鮮奶，把紅茶風味與奶香放在同一杯。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "chunshuitang-tieguanyin-latte",
+          "name": "鐵觀音拿鐵",
+          "base": "oolong",
+          "tags": [
+            "milk",
+            "creamy",
+            "roasted"
+          ],
+          "sourceUrl": "https://www.chunshuitang.com.tw/drink/",
+          "description": "焙香型鐵觀音搭配鮮奶，讓茶的焙火風味融入奶香。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "chunshuitang-jasmine-milk",
+          "name": "茉香奶茶",
+          "base": "green-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.chunshuitang.com.tw/drink/",
+          "description": "茉莉花香的茶底搭配奶香，與紅茶系奶茶呈現不同方向。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "tenren",
+      "name": "天仁釀茶所",
+      "type": "tea",
+      "aliases": [
+        "天仁茗茶",
+        "天仁",
+        "TenRen",
+        "Ten Ren"
+      ],
+      "officialUrl": "https://foodtracer.health.gov.taipei/UniPages/CustPageView?company_id=18559415TB&fid=ace98b92-fefb-4976-88a1-c9cb90b4612a&mid=68dbebcd-8dee-47c5-a6de-fef66b0d51db",
+      "region": "臺北市食材登錄平台之天仁釀茶所業者登錄品項；實際供應依門市，非全台當期價目表",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "menuSourceLabel": "業者登錄品項",
+      "drinks": [
+        {
+          "id": "tenren-green",
+          "name": "鮮綠茶",
+          "base": "green-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://foodtracer.health.gov.taipei/UniPages/CustPageView?company_id=18559415TB&fid=ace98b92-fefb-4976-88a1-c9cb90b4612a&mid=68dbebcd-8dee-47c5-a6de-fef66b0d51db",
+          "description": "以綠茶為基底的原茶款，沒有奶類或咀嚼配料的搭配。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "tenren-hibiscus-iced",
+          "name": "洛神冰茶",
+          "base": "green-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://foodtracer.health.gov.taipei/UniPages/CustPageView?company_id=18559415TB&fid=ace98b92-fefb-4976-88a1-c9cb90b4612a&mid=68dbebcd-8dee-47c5-a6de-fef66b0d51db",
+          "description": "綠茶搭配洛神汁，將洛神風味加入原茶之中。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "tenren-four-seasons",
+          "name": "四季烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://foodtracer.health.gov.taipei/UniPages/CustPageView?company_id=18559415TB&fid=ace98b92-fefb-4976-88a1-c9cb90b4612a&mid=68dbebcd-8dee-47c5-a6de-fef66b0d51db",
+          "description": "以四季烏龍茶為主角，適合從原味茶認識這個系列。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "tenren-913",
+          "name": "913茶王",
+          "base": "blended-tea",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://foodtracer.health.gov.taipei/UniPages/CustPageView?company_id=18559415TB&fid=ace98b92-fefb-4976-88a1-c9cb90b4612a&mid=68dbebcd-8dee-47c5-a6de-fef66b0d51db",
+          "description": "使用品牌913茶王茶葉的原茶款，以茶本身的風味為重點。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "tenren-chrysanthemum-puer",
+          "name": "菊花普洱茶",
+          "base": "puer-tea",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://foodtracer.health.gov.taipei/UniPages/CustPageView?company_id=18559415TB&fid=ace98b92-fefb-4976-88a1-c9cb90b4612a&mid=68dbebcd-8dee-47c5-a6de-fef66b0d51db",
+          "description": "普洱茶搭配菊花，將花香與普洱茶風味放在一起。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "hanlin",
+      "name": "翰林茶館",
+      "type": "tea",
+      "aliases": [
+        "翰林",
+        "Hanlin",
+        "翰林茶棧"
+      ],
+      "officialUrl": "https://www.hanlin-tea.com.tw/3d-flip-book/%E5%A4%96%E5%B8%B6%E8%8F%9C%E5%96%AE-%E7%99%BE%E8%B2%A8/",
+      "region": "百貨外帶門市；官網現掛2025.06版菜單，供應依門市",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "hanlin-state-banquet-milk",
+          "name": "國宴珍奶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "boba"
+          ],
+          "sourceUrl": "https://www.hanlin-tea.com.tw/3d-flip-book/%E5%A4%96%E5%B8%B6%E8%8F%9C%E5%96%AE-%E7%99%BE%E8%B2%A8/",
+          "description": "品牌以國宴珍奶為名的珍珠奶茶，菜單標示採黃金比例。",
+          "order": "此版菜單標示黃金比例，糖度恕不調整",
+          "sweetness": "fixed"
+        },
+        {
+          "id": "hanlin-original-pearl-milk",
+          "name": "原創珍珠奶茶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "boba"
+          ],
+          "sourceUrl": "https://www.hanlin-tea.com.tw/3d-flip-book/%E5%A4%96%E5%B8%B6%E8%8F%9C%E5%96%AE-%E7%99%BE%E8%B2%A8/",
+          "description": "原創奶茶搭配珍珠，菜單可選黑珍珠、白珍珠或熊貓珍珠。",
+          "order": "此版官方菜單列有正常糖至無糖選項；原料及配料仍可能含糖",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "hanlin-original-pearl-fresh-milk",
+          "name": "原創珍珠鮮奶茶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "boba"
+          ],
+          "sourceUrl": "https://www.hanlin-tea.com.tw/3d-flip-book/%E5%A4%96%E5%B8%B6%E8%8F%9C%E5%96%AE-%E7%99%BE%E8%B2%A8/",
+          "description": "鮮奶茶搭配珍珠，是原創珍奶系列的鮮奶版本。",
+          "order": "此版官方菜單列有正常糖至無糖選項；原料及配料仍可能含糖",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "hanlin-champagne-black",
+          "name": "特優級香檳紅茶",
+          "base": "black-tea",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://www.hanlin-tea.com.tw/3d-flip-book/%E5%A4%96%E5%B8%B6%E8%8F%9C%E5%96%AE-%E7%99%BE%E8%B2%A8/",
+          "description": "以香檳紅茶為名的原茶款，與鮮奶茶及加料系列分列。",
+          "order": "此版官方菜單列有正常糖至無糖選項；原料及配料仍可能含糖",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "hanlin-roasted-tieguanyin",
+          "name": "碳燒鐵觀音",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://www.hanlin-tea.com.tw/3d-flip-book/%E5%A4%96%E5%B8%B6%E8%8F%9C%E5%96%AE-%E7%99%BE%E8%B2%A8/",
+          "description": "以碳燒鐵觀音的焙香為風味方向，保留原茶的組合。",
+          "order": "此版官方菜單列有正常糖至無糖選項；原料及配料仍可能含糖",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "hanlin-jade-green",
+          "name": "翡翠綠茶",
+          "base": "green-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.hanlin-tea.com.tw/3d-flip-book/%E5%A4%96%E5%B8%B6%E8%8F%9C%E5%96%AE-%E7%99%BE%E8%B2%A8/",
+          "description": "菜單冷冽綠茶系列的翡翠綠茶，以綠茶風味為主。",
+          "order": "此版官方菜單列有正常糖至無糖選項；原料及配料仍可能含糖",
+          "sweetness": "adjustable"
+        }
+      ]
+    },
+    {
+      "slug": "ug",
+      "name": "UG樂己",
+      "type": "tea",
+      "aliases": [
+        "UG",
+        "UG TEA",
+        "UG Tea",
+        "UG樂己茶飲"
+      ],
+      "officialUrl": "https://foodtracer.health.gov.taipei/UniPages/CustPageView?company_id=80676602&fid=c5e8fab7-daed-4ae3-98f6-4919b1487c00&mid=E85A79C7-CD54-4AA5-9719-C8A9D0E575CE&sel_product_type=%E7%A0%94%E9%81%B8%E7%B4%94%E8%8C%B6",
+      "region": "臺北市食材登錄平台之UG樂己業者登錄品項；實際供應依門市，非全台當期價目表",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "menuSourceLabel": "業者登錄品項",
+      "drinks": [
+        {
+          "id": "ug-jasmine-fifteen",
+          "name": "三窨十五茉",
+          "base": "green-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://foodtracer.health.gov.taipei/UniPages/CustPageView?company_id=80676602&fid=c5e8fab7-daed-4ae3-98f6-4919b1487c00&mid=E85A79C7-CD54-4AA5-9719-C8A9D0E575CE&sel_product_type=%E7%A0%94%E9%81%B8%E7%B4%94%E8%8C%B6",
+          "description": "以茉香綠茶製作的研選純茶款，風味重點是茉莉花香。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "ug-camellia-red-oolong",
+          "name": "茶花紅烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://foodtracer.health.gov.taipei/UniPages/CustPageView?company_id=80676602&fid=c5e8fab7-daed-4ae3-98f6-4919b1487c00&mid=E85A79C7-CD54-4AA5-9719-C8A9D0E575CE&sel_product_type=%E7%A0%94%E9%81%B8%E7%B4%94%E8%8C%B6",
+          "description": "研選純茶系列的紅烏龍款，以茶花與烏龍的風味方向命名。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "ug-osmanthus-oolong",
+          "name": "桂花輕烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://foodtracer.health.gov.taipei/UniPages/CustPageView?company_id=80676602&fid=c5e8fab7-daed-4ae3-98f6-4919b1487c00&mid=E85A79C7-CD54-4AA5-9719-C8A9D0E575CE&sel_product_type=%E7%A0%94%E9%81%B8%E7%B4%94%E8%8C%B6",
+          "description": "桂花風味搭配輕烏龍，走花香型的純茶方向。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "ug-hibiscus-puer",
+          "name": "朱槿普洱紅",
+          "base": "blended-tea",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://foodtracer.health.gov.taipei/UniPages/CustPageView?company_id=80676602&fid=c5e8fab7-daed-4ae3-98f6-4919b1487c00&mid=E85A79C7-CD54-4AA5-9719-C8A9D0E575CE&sel_product_type=%E7%A0%94%E9%81%B8%E7%B4%94%E8%8C%B6",
+          "description": "研選純茶系列的朱槿普洱紅，是這組茶單中的普洱紅茶風味款。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "ug-rice-green",
+          "name": "米香玉露菁",
+          "base": "green-tea",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://foodtracer.health.gov.taipei/UniPages/CustPageView?company_id=80676602&fid=c5e8fab7-daed-4ae3-98f6-4919b1487c00&mid=E85A79C7-CD54-4AA5-9719-C8A9D0E575CE&sel_product_type=%E7%A0%94%E9%81%B8%E7%B4%94%E8%8C%B6",
+          "description": "以帶有糯米香的綠茶製作，茶香之外另有穀物香氣。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "ug-white-peach-oolong",
+          "name": "白桃烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://foodtracer.health.gov.taipei/UniPages/CustPageView?company_id=80676602&fid=c5e8fab7-daed-4ae3-98f6-4919b1487c00&mid=E85A79C7-CD54-4AA5-9719-C8A9D0E575CE&sel_product_type=%E7%A0%94%E9%81%B8%E7%B4%94%E8%8C%B6",
+          "description": "白桃風味搭配烏龍茶，是研選純茶系列的果香款。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "teamagic",
+      "name": "茶之魔手",
+      "type": "tea",
+      "aliases": [
+        "茶魔",
+        "Tea Magic",
+        "茶的魔手"
+      ],
+      "officialUrl": "https://www.teamagichand.com.tw/price/",
+      "region": "官網價目表限定中南部一般門市；新竹以北、東部與PLUS店菜單另計",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "teamagic-taiwan-green-oolong",
+          "name": "台灣青茶",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.teamagichand.com.tw/price/",
+          "description": "台灣系列的青茶原味款，以茶香為主要方向。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "teamagic-taiwan-oolong",
+          "name": "台灣烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://www.teamagichand.com.tw/price/",
+          "description": "台灣系列的烏龍原茶，與烏龍綠、烏龍青分開列項。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "teamagic-earl-grey",
+          "name": "伯爵紅茶",
+          "base": "black-tea",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://www.teamagichand.com.tw/price/",
+          "description": "以伯爵紅茶為基底的原茶款，也是多款調飲的茶底。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "teamagic-blueberry-jelly-milk",
+          "name": "藍莓凍伯爵奶茶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "jelly",
+            "topping"
+          ],
+          "sourceUrl": "https://www.teamagichand.com.tw/price/",
+          "description": "伯爵奶茶加入藍莓凍，讓奶茶之外多了果香與凍感。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "teamagic-earl-grey-fresh-milk",
+          "name": "伯爵鮮奶茶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.teamagichand.com.tw/price/",
+          "description": "伯爵紅茶搭配鮮奶，是菜單鮮奶系列中的紅茶款。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "teamagic-wintermelon-milk",
+          "name": "冬瓜鮮奶",
+          "base": "wintermelon",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.teamagichand.com.tw/price/",
+          "description": "冬瓜風味搭配鮮奶，與紅茶、綠茶類鮮奶茶分開列項。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "presotea",
+      "name": "鮮茶道",
+      "type": "tea",
+      "aliases": [
+        "Presotea",
+        "PresoTea"
+      ],
+      "officialUrl": "https://www.presotea.com/drinks",
+      "region": "台灣官網現行品項，實際供應與糖冰選項依門市",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "presotea-panda-brown-sugar-milk",
+          "name": "熊貓黑糖珍奶茶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "boba"
+          ],
+          "sourceUrl": "https://www.presotea.com/drinks",
+          "description": "黑糖風味的珍珠奶茶，重點是奶茶與珍珠的搭配。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "presotea-signature-fruit",
+          "name": "招牌水果茶",
+          "base": "oolong",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.presotea.com/drinks",
+          "description": "以白桃烏龍搭配多種水果，從果香與烏龍茶香切入。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "presotea-fruit-double-q",
+          "name": "鮮果雙Q綠茶",
+          "base": "green-tea",
+          "tags": [
+            "fruit",
+            "boba",
+            "jelly",
+            "topping"
+          ],
+          "sourceUrl": "https://www.presotea.com/drinks",
+          "description": "綠茶搭配百香果、珍珠與椰果，果茶中帶兩種咀嚼配料。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "presotea-earl-grey-latte",
+          "name": "伯爵拿鐵",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.presotea.com/drinks",
+          "description": "伯爵紅茶搭配鮮奶，以伯爵茶香與奶香的組合為主。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "presotea-alishan-iced",
+          "name": "阿里山冰茶",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.presotea.com/drinks",
+          "description": "官網原味茶系列的阿里山冰茶，以高山茶風味為方向。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "presotea-roasted-tea",
+          "name": "炭燒焙茶",
+          "base": "blended-tea",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://www.presotea.com/drinks",
+          "description": "原味茶系列中的焙茶款，風味方向著重炭焙茶香。",
+          "order": "甜度、冰量與供應依門市；尚未核對全部選項",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "likeatea",
+      "name": "老賴茶棧",
+      "type": "tea",
+      "aliases": [
+        "老賴",
+        "Likea Tea",
+        "Lai Tea"
+      ],
+      "officialUrl": "https://www.liketeashop.com/tw/drink",
+      "region": "台灣官網現行飲品；北部、中南部與離島菜單及供應有差異",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "likeatea-classic-black",
+          "name": "老賴紅茶",
+          "base": "black-tea",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://www.liketeashop.com/tw/drink",
+          "description": "老賴的招牌古早味紅茶，適合從純茶認識這家店。",
+          "order": "甜度與冰量選項尚未核對，請以門市菜單為準",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "likeatea-soy-black",
+          "name": "豆香紅茶",
+          "base": "black-tea",
+          "tags": [
+            "tea",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.liketeashop.com/tw/drink",
+          "description": "手工豆漿加入紅茶，讓豆香與茶味一起入口。",
+          "order": "甜度與冰量選項尚未核對，請以門市菜單為準",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "likeatea-queen-milk",
+          "name": "太后牛乳",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.liketeashop.com/tw/drink",
+          "description": "以紅茶搭配牛乳的招牌奶茶款。",
+          "order": "甜度與冰量選項尚未核對，請以門市菜單為準",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "likeatea-pearl-black",
+          "name": "珍珠紅茶",
+          "base": "black-tea",
+          "tags": [
+            "tea",
+            "boba",
+            "topping"
+          ],
+          "sourceUrl": "https://www.liketeashop.com/tw/drink",
+          "description": "紅茶加上珍珠，保留茶味也多了咀嚼口感。",
+          "order": "甜度與冰量選項尚未核對，請以門市菜單為準",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "likeatea-pearl-milk-tea",
+          "name": "珍珠奶茶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "boba",
+            "topping"
+          ],
+          "sourceUrl": "https://www.liketeashop.com/tw/drink",
+          "description": "奶茶搭配珍珠，是偏好濃香與咀嚼感的選擇。",
+          "order": "甜度與冰量選項尚未核對，請以門市菜單為準",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "likeatea-wintermelon-lemon",
+          "name": "冬瓜檸檬",
+          "base": "blended-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.liketeashop.com/tw/drink",
+          "description": "冬瓜風味加上檸檬，酸甜感比純茶更鮮明。",
+          "order": "甜度與冰量選項尚未核對，請以門市菜單為準",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "yifang",
+      "name": "一芳水果茶",
+      "type": "tea",
+      "aliases": [
+        "一芳",
+        "Yi Fang",
+        "Yifang"
+      ],
+      "officialUrl": "https://www.yifangteaglobal.com/tw/menu/",
+      "region": "台灣一般門市；百貨與三井 Outlet 另有菜單",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "yifang-fruit-tea",
+          "name": "一芳水果茶",
+          "base": "blended-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.yifangteaglobal.com/tw/menu/",
+          "description": "水果與茶香搭配，是一芳的招牌果茶。",
+          "order": "甜度與冰量選項尚未核對，請以門市菜單為準",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "yifang-wintermelon-lemon",
+          "name": "冬瓜檸檬露",
+          "base": "blended-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.yifangteaglobal.com/tw/menu/",
+          "description": "冬瓜糖磚的甜香搭配檸檬酸味。",
+          "order": "甜度與冰量選項尚未核對，請以門市菜單為準",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "yifang-brown-sugar-milk",
+          "name": "黑糖粉圓鮮奶",
+          "base": "blended-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "boba",
+            "topping"
+          ],
+          "sourceUrl": "https://www.yifangteaglobal.com/tw/menu/",
+          "description": "黑糖粉圓配鮮奶，以黑糖香與咀嚼口感為主角。",
+          "order": "甜度與冰量選項尚未核對，請以門市菜單為準",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "yifang-sugarcane-green",
+          "name": "白甘蔗青茶",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.yifangteaglobal.com/tw/menu/",
+          "description": "甘蔗汁與青茶相搭，帶出蔗香與茶味。",
+          "order": "甜度與冰量選項尚未核對，請以門市菜單為準",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "yifang-pineapple-green",
+          "name": "金鑽鳳梨綠",
+          "base": "green-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.yifangteaglobal.com/tw/menu/",
+          "description": "鳳梨果醬融入綠茶，走明亮的果香路線。",
+          "order": "甜度與冰量選項尚未核對，請以門市菜單為準",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "mrwish",
+      "name": "Mr.Wish",
+      "type": "tea",
+      "aliases": [
+        "Mr. Wish",
+        "Mr Wish",
+        "鮮果茶玩家"
+      ],
+      "officialUrl": "https://www.mr-wish.com/load_page/get_menu_page/1/all/",
+      "region": "官網北部門市菜單；中南部、百貨及個別門市可能不同",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "mrwish-huangzhi-oolong",
+          "name": "黃枝香烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.mr-wish.com/uploads/1794535291_e80da0e2aadb5cf0f64a.jpg",
+          "description": "以黃枝香烏龍為主的純茶款。",
+          "order": "北部菜單列有無糖選項；供應與冰量依門市",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "mrwish-roasted-oolong",
+          "name": "小焙烏龍",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://www.mr-wish.com/uploads/1794535291_e80da0e2aadb5cf0f64a.jpg",
+          "description": "想喝帶焙香的純茶，可以從這杯烏龍開始。",
+          "order": "北部菜單列有無糖選項；供應與冰量依門市",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "mrwish-guava-plum",
+          "name": "紅心芭樂梅",
+          "base": "blended-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.mr-wish.com/uploads/1794535291_e80da0e2aadb5cf0f64a.jpg",
+          "description": "紅心芭樂與梅味相搭，走酸甜果飲路線。",
+          "order": "甜度與冰量選項尚未核對，請以門市菜單為準",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "mrwish-pearl-milk-tea",
+          "name": "波霸珍珠奶茶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "boba",
+            "topping"
+          ],
+          "sourceUrl": "https://www.mr-wish.com/uploads/1794535291_e80da0e2aadb5cf0f64a.jpg",
+          "description": "波霸珍珠配奶茶，適合想喝也想嚼的時候。",
+          "order": "甜度與冰量選項尚未核對，請以門市菜單為準",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "mrwish-signature-fruit",
+          "name": "招牌水果茶",
+          "base": "blended-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.mr-wish.com/uploads/1794535291_e80da0e2aadb5cf0f64a.jpg",
+          "description": "百香果、柳橙與檸檬交疊出鮮明的果香。",
+          "order": "甜度與冰量選項尚未核對，請以門市菜單為準",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "mrwish-black-milk",
+          "name": "紅茶鮮奶",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.mr-wish.com/uploads/1794535291_e80da0e2aadb5cf0f64a.jpg",
+          "description": "紅茶加入鮮奶，茶與奶的搭配直接而單純。",
+          "order": "甜度與冰量選項尚未核對，請以門市菜單為準",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "hsiehho",
+      "name": "先喝道",
+      "type": "tea",
+      "aliases": [
+        "先喝道古典玫瑰園",
+        "TaoTaoTea"
+      ],
+      "officialUrl": "https://www.taotaotea.com.tw/pages/drinks",
+      "region": "台灣官網現行飲品介紹；實際供應以門市菜單為準",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "hsiehho-english-fruit",
+          "name": "英式水果茶",
+          "base": "black-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.taotaotea.com.tw/pages/drinks",
+          "description": "紅茶搭配百香果、鳳梨與柑橘果香。",
+          "order": "官網建議微糖微冰；果茶最低冰量為微冰，原料本身可能有甜味",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "hsiehho-four-seasons",
+          "name": "四季春茶王",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.taotaotea.com.tw/pages/drinks",
+          "description": "以四季春的花香與茶味為主的純茶款。",
+          "order": "官網建議無糖微冰；可選甜度依門市",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "hsiehho-rose-latte",
+          "name": "英式玫瑰拿鐵",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://www.taotaotea.com.tw/pages/drinks",
+          "description": "玫瑰風味紅茶加入鮮乳，花香與奶香一起呈現。",
+          "order": "官網建議微微糖微冰；原料與甜度限制依門市",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "hsiehho-plum-four-seasons",
+          "name": "青梅四季春",
+          "base": "oolong",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.taotaotea.com.tw/pages/drinks",
+          "description": "青梅酸香搭配四季春，口味比純茶更鮮明。",
+          "order": "官網標示固定糖、固定冰",
+          "sweetness": "fixed"
+        },
+        {
+          "id": "hsiehho-peach-black",
+          "name": "英式蜜桃風味茶",
+          "base": "black-tea",
+          "tags": [
+            "tea",
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://www.taotaotea.com.tw/pages/drinks",
+          "description": "帶蜜桃香氣的英式紅茶款。",
+          "order": "官網建議無糖或微微糖、微冰；供應依門市",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "hsiehho-roasted-grains",
+          "name": "輕焙穀麥茶",
+          "base": "barley",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://www.taotaotea.com.tw/pages/drinks",
+          "description": "穀麥的烘焙香氣，是與茶葉不同的風味選擇。",
+          "order": "官網列無糖少冰或微糖少冰點法；供應依門市",
+          "sweetness": "adjustable"
+        }
+      ]
+    },
+    {
+      "slug": "itsotea",
+      "name": "一手私藏世界紅茶",
+      "type": "tea",
+      "aliases": [
+        "一手私藏",
+        "ITSO TEA",
+        "Itsotea"
+      ],
+      "officialUrl": "https://itsotea.com/product_promote.php",
+      "region": "台灣官網現行推薦飲品；區域菜單及供應依門市",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "itsotea-amber-jelly",
+          "name": "一手琥珀凍紅茶",
+          "base": "black-tea",
+          "tags": [
+            "tea",
+            "jelly",
+            "topping"
+          ],
+          "sourceUrl": "https://itsotea.com/product_promote.php",
+          "description": "紅茶搭配紅茶凍，茶香多了一層滑嫩口感。",
+          "order": "官網列冷、熱飲；茶凍原料甜度未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "itsotea-grey-fruit",
+          "name": "格雷冰果茶",
+          "base": "black-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://itsotea.com/product_promote.php",
+          "description": "伯爵紅茶與百香果組合，果香帶著伯爵茶的氣息。",
+          "order": "官網列冷飲，建議微糖或半糖；原料本身可能有甜味",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "itsotea-apple-forest",
+          "name": "林檎之森",
+          "base": "black-tea",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://itsotea.com/product_promote.php",
+          "description": "蘋果汁加入仲夏夜紅茶，讓紅茶帶上蘋果香。",
+          "order": "官網列冷、熱飲；甜度選項未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "itsotea-peach-latte",
+          "name": "蜜斯茶拿鐵",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "fruit"
+          ],
+          "sourceUrl": "https://itsotea.com/product_promote.php",
+          "description": "蜜桃紅茶與鮮乳相搭，果香融入奶茶裡。",
+          "order": "官網列冷、熱飲；甜度選項未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "itsotea-midsummer-black",
+          "name": "私藏仲夏夜紅茶",
+          "base": "black-tea",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://itsotea.com/product_promote.php",
+          "description": "一手私藏的調配紅茶，適合從純茶喝起。",
+          "order": "官網建議無糖或微糖，提供冷、熱飲",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "itsotea-ruby-black",
+          "name": "台灣魚池18號紅玉",
+          "base": "black-tea",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://itsotea.com/product_promote.php",
+          "description": "以台茶十八號紅玉為主的台灣紅茶款。",
+          "order": "甜度與冰量選項尚未核對，請以門市菜單為準",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "hachiyo",
+      "name": "八曜和茶",
+      "type": "tea",
+      "aliases": [
+        "八曜",
+        "8YOTEA",
+        "Hachiyo"
+      ],
+      "officialUrl": "https://8yotea.com/menu/",
+      "region": "台灣官網 2026-10-12 菜單；實際供應依門市",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "hachiyo-premium-307",
+          "name": "極上307",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://8yotea.com/wp-content/uploads/20261012_menu.jpg",
+          "description": "輕焙烏龍純茶，菜單另分清香與濃厚版本。",
+          "order": "菜單列無糖選項，清香或濃厚版本依門市",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "hachiyo-ultimate-308",
+          "name": "究極308",
+          "base": "blended-tea",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://8yotea.com/wp-content/uploads/20261012_menu.jpg",
+          "description": "蕎麥與輕焙烏龍組成的複方茶。",
+          "order": "官網標示固定無糖、不可加料；供應依門市",
+          "sweetness": "unsweetened"
+        },
+        {
+          "id": "hachiyo-grain-tea",
+          "name": "八曜和茶",
+          "base": "barley",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://8yotea.com/wp-content/uploads/20261012_menu.jpg",
+          "description": "以穀物焙香為主的招牌和茶款。",
+          "order": "甜度與冰量選項尚未核對，請以門市菜單為準",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "hachiyo-wafu-308",
+          "name": "和風308",
+          "base": "buckwheat",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://8yotea.com/wp-content/uploads/20261012_menu.jpg",
+          "description": "焙煎蕎麥與穀物搭配，偏向厚實的焙香。",
+          "order": "甜度與冰量選項尚未核對，請以門市菜單為準",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "hachiyo-grapefruit-307",
+          "name": "柚香覺醒307",
+          "base": "oolong",
+          "tags": [
+            "fruit",
+            "refreshing"
+          ],
+          "sourceUrl": "https://8yotea.com/wp-content/uploads/20261012_menu.jpg",
+          "description": "輕焙烏龍搭配葡萄柚，果香與茶香一起呈現。",
+          "order": "官網纖果爽系列為冷飲、固定冰量；甜度限制請向門市確認",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "hachiyo-roasted-milk-308",
+          "name": "308炙燒濃乳",
+          "base": "buckwheat",
+          "tags": [
+            "milk",
+            "creamy",
+            "roasted"
+          ],
+          "sourceUrl": "https://8yotea.com/wp-content/uploads/20261012_menu.jpg",
+          "description": "焙香茶底搭配奶精香氣，屬八曜的厚奶茶系列。",
+          "order": "官網說明奶精粉含黑糖成分，不另加糖仍可能有甜味",
+          "sweetness": "unknown"
+        }
+      ]
+    },
+    {
+      "slug": "naptea",
+      "name": "再睡5分鐘",
+      "type": "tea",
+      "aliases": [
+        "再睡五分鐘",
+        "NAP TEA",
+        "Nap Tea"
+      ],
+      "officialUrl": "https://www.napteazzz.com/recommendations/%E8%8F%9C%E5%96%AEmenu",
+      "region": "台灣一般二代店；新莊幸福與台中一中一代店另有菜單",
+      "verifiedOn": "2026-11-18",
+      "menuWatch": false,
+      "drinks": [
+        {
+          "id": "naptea-jasmine-cream",
+          "name": "棉被午茉綠",
+          "base": "green-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://static.wixstatic.com/media/14ee62_5e8a2dbada5840e9ad2a12b10a51cc5c~mv2.png",
+          "description": "茉莉綠茶上覆厚奶蓋，喝得到茶與奶的層次。",
+          "order": "二代店菜單列大杯冷飲；奶蓋與原料甜度未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "naptea-morning-black",
+          "name": "日安紅",
+          "base": "black-tea",
+          "tags": [
+            "tea"
+          ],
+          "sourceUrl": "https://static.wixstatic.com/media/14ee62_5e8a2dbada5840e9ad2a12b10a51cc5c~mv2.png",
+          "description": "以熟果與蜜香風味為主的純紅茶款。",
+          "order": "可不另加糖；冷飲大杯、熱飲中杯，製作依門市",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "naptea-noon-jasmine",
+          "name": "午茉綠",
+          "base": "green-tea",
+          "tags": [
+            "tea",
+            "refreshing"
+          ],
+          "sourceUrl": "https://static.wixstatic.com/media/14ee62_5e8a2dbada5840e9ad2a12b10a51cc5c~mv2.png",
+          "description": "三窨茉莉薰製綠茶，主角是茉莉花香。",
+          "order": "可不另加糖；冷飲大杯、熱飲中杯，製作依門市",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "naptea-four-seasons-jinxuan",
+          "name": "四季金萱",
+          "base": "oolong",
+          "tags": [
+            "tea",
+            "roasted"
+          ],
+          "sourceUrl": "https://static.wixstatic.com/media/14ee62_5e8a2dbada5840e9ad2a12b10a51cc5c~mv2.png",
+          "description": "金萱烏龍的花香帶著輕焙茶味。",
+          "order": "可不另加糖；冷飲大杯、熱飲中杯，製作依門市",
+          "sweetness": "adjustable"
+        },
+        {
+          "id": "naptea-morning-latte",
+          "name": "日安紅歐蕾",
+          "base": "black-tea",
+          "tags": [
+            "milk",
+            "creamy"
+          ],
+          "sourceUrl": "https://static.wixstatic.com/media/14ee62_5e8a2dbada5840e9ad2a12b10a51cc5c~mv2.png",
+          "description": "日安紅茶加入鮮奶，讓蜜香茶味更圓潤。",
+          "order": "二代店菜單列冷飲大杯、熱飲中杯；原料甜度未核對",
+          "sweetness": "unknown"
+        },
+        {
+          "id": "naptea-brown-sugar-thick-milk",
+          "name": "黑糖珍珠厚奶",
+          "base": "blended-tea",
+          "tags": [
+            "milk",
+            "creamy",
+            "boba",
+            "topping"
+          ],
+          "sourceUrl": "https://static.wixstatic.com/media/14ee62_5e8a2dbada5840e9ad2a12b10a51cc5c~mv2.png",
+          "description": "黑糖珍珠加入特調厚乳，著重黑糖香與濃厚奶味。",
+          "order": "二代店菜單標示甜度固定，冷飲為固定冰量",
+          "sweetness": "fixed"
         }
       ]
     }

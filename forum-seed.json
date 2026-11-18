@@ -686,5 +686,157 @@
     "date": null,
     "stance": "positive",
     "note": "作者比較常喝的連鎖冰拿鐵，喜歡麥當勞金選冰那堤的奶味與咖啡平衡；本人提醒不同門市品質可能有差，本筆不採用其品牌排名。"
+  },
+  {
+    "drinkId": "50lan-pearl-coconut",
+    "platform": "PTT",
+    "url": "https://www.ptt.cc/bbs/Drink/M.1689336623.A.2E4.html",
+    "date": "2023-07-14",
+    "stance": "mixed",
+    "note": "作者把四季春加珍波椰列為自己在50嵐最常點的一杯，喜歡配料份量；留言也有喜歡者，但另有飲用者覺得基底茶不合口味。"
+  },
+  {
+    "drinkId": "50lan-icecream-black",
+    "platform": "PTT",
+    "url": "https://www.ptt.cc/bbs/Drink/M.1689336623.A.2E4.html",
+    "date": "2023-07-14",
+    "stance": "positive",
+    "note": "同一討論串有飲用者固定選冰淇淋紅茶，另有留言分享無糖、正常冰的個人點法；不是目前門市甜度查證。"
+  },
+  {
+    "drinkId": "50lan-four-seasons",
+    "platform": "PTT",
+    "url": "https://www.ptt.cc/bbs/Drink/M.1689336623.A.2E4.html",
+    "date": "2023-07-14",
+    "stance": "positive",
+    "note": "作者回覆表示喜歡50嵐的純四季春，也有留言者說經常只點這款；此為個人口味取樣。"
+  },
+  {
+    "drinkId": "50lan-pearl-coconut",
+    "platform": "PTT",
+    "url": "https://www.ptt.cc/bbs/Drink/M.1499059956.A.18E.html",
+    "date": "2017-07-03",
+    "stance": "mixed",
+    "note": "作者與同事試喝四季春珍波椰，喜歡椰果與清涼口感，但也覺得茶味偏淡；這是少量試喝感受，不採用文中跨品類盲測排名。"
+  },
+  {
+    "drinkId": "50lan-four-seasons",
+    "platform": "PTT",
+    "url": "https://www.ptt.cc/bbs/Drink/M.1552369012.A.3BA.html",
+    "date": "2019-03-12",
+    "stance": "mixed",
+    "note": "四季春心得串的留言中，有人把50嵐列為自己的最愛，也有人覺得茶味少或不喜歡；保留同串正反感受。"
+  },
+  {
+    "drinkId": "dayungs-grapefruit-green",
+    "platform": "PTT",
+    "url": "https://www.ptt.cc/bbs/Drink/M.1439004306.A.D09.html",
+    "date": "2015-08-08",
+    "stance": "negative",
+    "note": "作者實喝後不滿葡萄柚果肉量及當時價格；留言也有業者製法與果汁、果肉不同的討論。這是2015年經驗，不能代表現行配方或所有門市。"
+  },
+  {
+    "drinkId": "chunshuitang-pearl-milk",
+    "platform": "PTT",
+    "url": "https://www.ptt.cc/bbs/Drink/M.1421588883.A.844.html",
+    "date": "2015-01-18",
+    "stance": "mixed",
+    "note": "作者在天母店喝珍珠奶茶後覺得茶味不突出、珍珠普通；留言對奶茶口味與價格有不同看法。屬2015年單次門市經驗。"
+  },
+  {
+    "drinkId": "presotea-earl-grey-latte",
+    "platform": "PTT",
+    "url": "https://www.ptt.cc/bbs/Drink/M.1641925797.A.5F0.html",
+    "date": "2022-01-12",
+    "stance": "positive",
+    "note": "作者分享鮮奶茶心得時推薦鮮茶道伯爵茶款，並提醒其個人覺得微糖仍偏甜。以現行官網伯爵拿鐵對應舊文伯爵鮮奶茶，非現行配方驗證。"
+  },
+  {
+    "drinkId": "ug-jasmine-fifteen",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/food/p/257092081",
+    "date": null,
+    "stance": "positive",
+    "note": "作者在南陽街門市買三窨十五茉無糖少冰，肯定茉莉花香與茶感，但認為純茶價格偏高。頁面未呈現可核對的發文日期，故保留未知；不把其他鮮奶茶評論套到此杯。"
+  },
+  {
+    "drinkId": "likeatea-soy-black",
+    "platform": "PTT",
+    "url": "https://www.ptt.cc/bbs/Drink/M.1610780452.A.645.html",
+    "date": "2021-01-16",
+    "stance": "mixed",
+    "note": "作者實喝微糖豆香紅茶，喜歡味道但認為仍偏甜；同串有人喜歡不加糖版本，也有人覺得豆味不足或太甜。"
+  },
+  {
+    "drinkId": "hsiehho-four-seasons",
+    "platform": "PTT",
+    "url": "https://www.ptt.cc/bbs/Drink/M.1698647001.A.058.html",
+    "date": "2023-10-30",
+    "stance": "positive",
+    "note": "作者點微糖去冰四季春茶王加珍珠與玫瑰雪露，覺得茶香明顯、不澀且微回甘；玫瑰味較突出，與純茶版本有差異。"
+  },
+  {
+    "drinkId": "naptea-jasmine-cream",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/food/p/234065045",
+    "date": null,
+    "stance": "positive",
+    "note": "作者實喝半糖微冰棉被午茉綠，喜歡綠茶與奶蓋一起入口的搭配，覺得甜度合口味；同時提到奶蓋本身有奶粉般粉感。"
+  },
+  {
+    "drinkId": "naptea-jasmine-cream",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/food/p/257295441",
+    "date": null,
+    "stance": "negative",
+    "note": "作者隔一段時間再喝棉被午茉綠，覺得奶蓋奶油味較重、綠茶茶感變淡，與自己先前喜歡的版本有落差。"
+  },
+  {
+    "drinkId": "itsotea-midsummer-black",
+    "platform": "PTT",
+    "url": "https://www.ptt.cc/bbs/Drink/M.1699119295.A.438.html",
+    "date": "2023-11-05",
+    "stance": "positive",
+    "note": "作者整理自己喝過的紅茶店，明確推薦一手私藏仲夏夜紅茶的無糖去冰點法；屬個人口味偏好，未給出門市或量化排名。"
+  },
+  {
+    "drinkId": "mrwish-guava-plum",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/boba/p/259932893",
+    "date": null,
+    "stance": "positive",
+    "note": "水果手搖討論串的留言者表示，Mr.Wish 紅心芭樂梅是自己到店會固定點的飲品；沒有交代糖冰或門市。"
+  },
+  {
+    "drinkId": "yifang-fruit-tea",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/food/p/239490311",
+    "date": null,
+    "stance": "positive",
+    "note": "作者在自己常點的飲料清單中推薦一芳水果茶，分享不另加糖、少冰的喝法；這是個人點餐經驗，原料本身甜味仍以門市為準。"
+  },
+  {
+    "drinkId": "hachiyo-grapefruit-307",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/boba/p/236621489",
+    "date": null,
+    "stance": "positive",
+    "note": "作者實喝柚香覺醒307，喜歡茶與柚香的搭配並表示好喝；沒有交代糖冰，對果汁原料的提問不作成分證據。"
+  },
+  {
+    "drinkId": "hachiyo-roasted-milk-308",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/boba/p/236621489",
+    "date": null,
+    "stance": "mixed",
+    "note": "作者同次喝308炙燒濃乳加白玉，喜歡奶茶風味，但認為白玉的味道不明顯；屬加料版本心得。"
+  },
+  {
+    "drinkId": "hachiyo-grapefruit-307",
+    "platform": "Dcard",
+    "url": "https://www.dcard.tw/f/boba/p/256361452",
+    "date": null,
+    "stance": "negative",
+    "note": "作者點微糖微冰柚香覺醒307，覺得冰量超出預期、甜感過重且烏龍茶香不明顯，喝後不願再點；屬該次門市體驗。"
   }
 ]

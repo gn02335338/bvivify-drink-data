@@ -5,6 +5,21 @@
   "repository": "gn02335338/bvivify-drink-data",
   "monitoredBrands": [
     {
+      "slug": "50lan",
+      "name": "50嵐",
+      "type": "tea",
+      "drinkIds": [
+        "50lan-pearl-coconut",
+        "50lan-icecream-black",
+        "50lan-boba-milk",
+        "50lan-black-latte",
+        "50lan-roasted-oolong-latte",
+        "50lan-four-seasons",
+        "50lan-jasmine",
+        "50lan-golden-oolong"
+      ]
+    },
+    {
       "slug": "milksha",
       "name": "迷客夏",
       "type": "tea",
@@ -255,12 +270,256 @@
         "mccafe-select-latte",
         "mccafe-honey-black-tea"
       ]
+    },
+    {
+      "slug": "aniceholiday",
+      "name": "一沐日",
+      "type": "tea",
+      "drinkIds": [
+        "aniceholiday-rice-tea",
+        "aniceholiday-taiwan-milk",
+        "aniceholiday-buckwheat-cream",
+        "aniceholiday-osmanthus-lemon-jelly",
+        "aniceholiday-island-black",
+        "aniceholiday-high-mountain"
+      ]
+    },
+    {
+      "slug": "hechalou",
+      "name": "鶴茶樓",
+      "type": "tea",
+      "drinkIds": [
+        "hechalou-white-oolong",
+        "hechalou-black-oolong",
+        "hechalou-red-oolong",
+        "hechalou-peach-white",
+        "hechalou-lychee-white"
+      ]
+    },
+    {
+      "slug": "truedan",
+      "name": "珍煮丹",
+      "type": "tea",
+      "drinkIds": [
+        "truedan-brown-boba-milk",
+        "truedan-brown-jelly-milk",
+        "truedan-pearl-jelly-latte",
+        "truedan-shanshan-latte",
+        "truedan-thai-milk",
+        "truedan-spring-tea"
+      ]
+    },
+    {
+      "slug": "wanpo",
+      "name": "萬波島嶼紅茶",
+      "type": "tea",
+      "drinkIds": [
+        "wanpo-island-black",
+        "wanpo-jinxuan",
+        "wanpo-liya-oolong",
+        "wanpo-apple-island",
+        "wanpo-boba-milk",
+        "wanpo-cream-black"
+      ]
+    },
+    {
+      "slug": "coco",
+      "name": "CoCo都可",
+      "type": "tea",
+      "drinkIds": [
+        "coco-passion-duo",
+        "coco-three-brothers",
+        "coco-pearl-milk",
+        "coco-jasmine",
+        "coco-four-seasons",
+        "coco-english-milk"
+      ]
+    },
+    {
+      "slug": "dayungs",
+      "name": "大苑子",
+      "type": "tea",
+      "drinkIds": [
+        "dayungs-fruit-tea",
+        "dayungs-lemon-spring-oolong",
+        "dayungs-jade-lemon",
+        "dayungs-passion-green",
+        "dayungs-grapefruit-green"
+      ]
+    },
+    {
+      "slug": "chunshuitang",
+      "name": "春水堂",
+      "type": "tea",
+      "drinkIds": [
+        "chunshuitang-pearl-milk",
+        "chunshuitang-uva-iced",
+        "chunshuitang-amber-pearl-latte",
+        "chunshuitang-black-latte",
+        "chunshuitang-tieguanyin-latte",
+        "chunshuitang-jasmine-milk"
+      ]
+    },
+    {
+      "slug": "tenren",
+      "name": "天仁釀茶所",
+      "type": "tea",
+      "drinkIds": [
+        "tenren-green",
+        "tenren-hibiscus-iced",
+        "tenren-four-seasons",
+        "tenren-913",
+        "tenren-chrysanthemum-puer"
+      ]
+    },
+    {
+      "slug": "hanlin",
+      "name": "翰林茶館",
+      "type": "tea",
+      "drinkIds": [
+        "hanlin-state-banquet-milk",
+        "hanlin-original-pearl-milk",
+        "hanlin-original-pearl-fresh-milk",
+        "hanlin-champagne-black",
+        "hanlin-roasted-tieguanyin",
+        "hanlin-jade-green"
+      ]
+    },
+    {
+      "slug": "ug",
+      "name": "UG樂己",
+      "type": "tea",
+      "drinkIds": [
+        "ug-jasmine-fifteen",
+        "ug-camellia-red-oolong",
+        "ug-osmanthus-oolong",
+        "ug-hibiscus-puer",
+        "ug-rice-green",
+        "ug-white-peach-oolong"
+      ]
+    },
+    {
+      "slug": "teamagic",
+      "name": "茶之魔手",
+      "type": "tea",
+      "drinkIds": [
+        "teamagic-taiwan-green-oolong",
+        "teamagic-taiwan-oolong",
+        "teamagic-earl-grey",
+        "teamagic-blueberry-jelly-milk",
+        "teamagic-earl-grey-fresh-milk",
+        "teamagic-wintermelon-milk"
+      ]
+    },
+    {
+      "slug": "presotea",
+      "name": "鮮茶道",
+      "type": "tea",
+      "drinkIds": [
+        "presotea-panda-brown-sugar-milk",
+        "presotea-signature-fruit",
+        "presotea-fruit-double-q",
+        "presotea-earl-grey-latte",
+        "presotea-alishan-iced",
+        "presotea-roasted-tea"
+      ]
+    },
+    {
+      "slug": "likeatea",
+      "name": "老賴茶棧",
+      "type": "tea",
+      "drinkIds": [
+        "likeatea-classic-black",
+        "likeatea-soy-black",
+        "likeatea-queen-milk",
+        "likeatea-pearl-black",
+        "likeatea-pearl-milk-tea",
+        "likeatea-wintermelon-lemon"
+      ]
+    },
+    {
+      "slug": "yifang",
+      "name": "一芳水果茶",
+      "type": "tea",
+      "drinkIds": [
+        "yifang-fruit-tea",
+        "yifang-wintermelon-lemon",
+        "yifang-brown-sugar-milk",
+        "yifang-sugarcane-green",
+        "yifang-pineapple-green"
+      ]
+    },
+    {
+      "slug": "mrwish",
+      "name": "Mr.Wish",
+      "type": "tea",
+      "drinkIds": [
+        "mrwish-huangzhi-oolong",
+        "mrwish-roasted-oolong",
+        "mrwish-guava-plum",
+        "mrwish-pearl-milk-tea",
+        "mrwish-signature-fruit",
+        "mrwish-black-milk"
+      ]
+    },
+    {
+      "slug": "hsiehho",
+      "name": "先喝道",
+      "type": "tea",
+      "drinkIds": [
+        "hsiehho-english-fruit",
+        "hsiehho-four-seasons",
+        "hsiehho-rose-latte",
+        "hsiehho-plum-four-seasons",
+        "hsiehho-peach-black",
+        "hsiehho-roasted-grains"
+      ]
+    },
+    {
+      "slug": "itsotea",
+      "name": "一手私藏世界紅茶",
+      "type": "tea",
+      "drinkIds": [
+        "itsotea-amber-jelly",
+        "itsotea-grey-fruit",
+        "itsotea-apple-forest",
+        "itsotea-peach-latte",
+        "itsotea-midsummer-black",
+        "itsotea-ruby-black"
+      ]
+    },
+    {
+      "slug": "hachiyo",
+      "name": "八曜和茶",
+      "type": "tea",
+      "drinkIds": [
+        "hachiyo-premium-307",
+        "hachiyo-ultimate-308",
+        "hachiyo-grain-tea",
+        "hachiyo-wafu-308",
+        "hachiyo-grapefruit-307",
+        "hachiyo-roasted-milk-308"
+      ]
+    },
+    {
+      "slug": "naptea",
+      "name": "再睡5分鐘",
+      "type": "tea",
+      "drinkIds": [
+        "naptea-jasmine-cream",
+        "naptea-morning-black",
+        "naptea-noon-jasmine",
+        "naptea-four-seasons-jinxuan",
+        "naptea-morning-latte",
+        "naptea-brown-sugar-thick-milk"
+      ]
     }
   ],
   "onboardingRotation": {
     "anchorDate": "2026-11-18",
     "brandsPerDay": 3,
     "brandSlugs": [
+      "50lan",
       "guiji",
       "wootea",
       "tptea",
@@ -269,7 +528,26 @@
       "85cafe",
       "citycafe",
       "letscafe",
-      "mccafe"
+      "mccafe",
+      "aniceholiday",
+      "hechalou",
+      "truedan",
+      "wanpo",
+      "coco",
+      "dayungs",
+      "chunshuitang",
+      "tenren",
+      "hanlin",
+      "ug",
+      "teamagic",
+      "presotea",
+      "likeatea",
+      "yifang",
+      "mrwish",
+      "hsiehho",
+      "itsotea",
+      "hachiyo",
+      "naptea"
     ],
     "rule": "Use Taipei calendar days since anchorDate; start at (dayOffset * brandsPerDay) modulo brandSlugs.length and take brandsPerDay consecutive brands. Additionally cover at least one tea and one coffee brand, favoring fewer verified samples."
   },
