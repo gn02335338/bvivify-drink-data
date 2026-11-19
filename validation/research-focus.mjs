@@ -121,6 +121,7 @@ export function researchFocus({ shops, plan, seed = [], daily = { records: [] },
   }
   const recentSearches = [];
   const customRecipeSearchTargets = [];
+  const customBrandSearchTargets = [];
   const dateBackfillTargets = [];
   let freshness;
   const freshnessPlan = plan.freshnessResearch;
@@ -169,6 +170,23 @@ export function researchFocus({ shops, plan, seed = [], daily = { records: [] },
       const shop = brands.get(slug);
       focus(shop, '每日咖啡近期原帖：星巴克、路易莎、cama與超商');
       if (!recentBrands.some(brand => brand.slug === slug)) recentBrands.push(shop);
+    }
+    if (plan.customRecipePolicy?.enabled && plan.customRecipePolicy.brandRotation) {
+      const customRotation = plan.customRecipePolicy.brandRotation;
+      const slugs = knownValues(customRotation.brandSlugs, brands, 'custom recipe brand slug');
+      for (const slug of rotation(slugs, customRotation, today, 'customRecipePolicy.brandRotation')) {
+        const shop = brands.get(slug);
+        const existingRecipes = [...customRecipes.values()].filter(recipe => recipe.shopSlug === slug);
+        customBrandSearchTargets.push({
+          shopSlug: slug, shopName: shop.name, type: shop.type,
+          aliases: [...new Set([shop.name, ...(Array.isArray(shop.aliases) ? shop.aliases : [])])],
+          queryHint: shop.name + ' 客製 加料 換奶 配方 實喝',
+          existingRecipes,
+          rule: 'Discover first-hand custom orders even when this brand has no existing recipe. Check 7 days then 30 days; retain actual original dates for any historical supplement. Reuse existing recipe identities for the same basic order; sugar/ice alone does not create a new recipe. Share the twelve-original, five-total-addition and two-date-correction caps with all other stages.',
+        });
+        focus(shop, '跨品牌客製喝法輪替：保留配方、原帖與原始發文日');
+        if (!recentBrands.some(brand => brand.slug === slug)) recentBrands.push(shop);
+      }
     }
     for (const window of windows) {
       const sorted = [...recentBrands].sort((a, b) => Number(coffeePrioritySlugs.includes(b.slug)) - Number(coffeePrioritySlugs.includes(a.slug)));
@@ -248,7 +266,7 @@ export function researchFocus({ shops, plan, seed = [], daily = { records: [] },
   return {
     date, catalogCounts: { brands: brands.size, drinks: drinks.size },
     limits: { ...DAILY_LIMITS, ...(freshnessPlan ? { dateCorrections: 2 } : {}) },
-    ...(freshnessPlan ? { priorityStages: ['recent_7_days', 'recent_30_days', 'publication_date_backfill', 'expanded_drink_rotation', 'onboarding_rotation'], freshness, recentSearches, dateBackfillTargets, customRecipeSearchTargets } : {}),
+    ...(freshnessPlan ? { priorityStages: ['recent_7_days', 'recent_30_days', 'publication_date_backfill', 'expanded_drink_rotation', 'onboarding_rotation'], freshness, recentSearches, dateBackfillTargets, customRecipeSearchTargets, customBrandSearchTargets } : {}),
     focusBrands, priorityDrinks, warnings,
   };
 }

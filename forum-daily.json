@@ -334,6 +334,102 @@
       "stance": "positive",
       "note": "作者實喝店員推薦的組合，覺得好喝；糖度、冰量未載。",
       "dateEvidence": "原帖本人主文permalink的time datetime=2026-11-14T02:29:33.000Z；換算台灣2026-11-14 10:29，非照片ALT或留言時間。"
+    },
+    {
+      "recipeId": "milksha-taisho-toffee-q",
+      "shopSlug": "milksha",
+      "name": "大正紅茶加太妃奶Q",
+      "recipe": "大正醇香紅茶加太妃奶Q。",
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/boba/p/262457298",
+      "date": "2026-11-16",
+      "stance": "positive",
+      "note": "作者自己點大杯大正紅茶加太妃奶Q，微糖微冰，覺得太妃香不會搶茶味、配料QQ，沒有自己擔心的焦味。",
+      "dateEvidence": "正常Chrome重讀原帖主文，SocialMediaPosting.datePublished=2026-11-16T11:21:27+08:00，網址與標題一致；頁首11/17是dateModified，不作發文日。"
+    },
+    {
+      "recipeId": "hechalou-red-oolong-tea-balls",
+      "shopSlug": "hechalou",
+      "name": "紅鶴烏龍加茶丸",
+      "recipe": "紅鶴烏龍加茶丸。",
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/boba/p/262463239",
+      "date": "2026-11-17",
+      "stance": "positive",
+      "note": "作者試喝紅鶴烏龍加茶丸，覺得茶湯順口、帶蜜香與焙甜尾韻，茶丸像珍珠且帶烏龍茶香；糖冰與加料份數未載。",
+      "dateEvidence": "正常Chrome重讀原帖主文，SocialMediaPosting.datePublished=2026-11-17T15:23:39+08:00；網址與主文標題一致，非留言時間。dateModified同一時間。"
+    },
+    {
+      "recipeId": "chingshin-jade-qing-latte-pearls",
+      "shopSlug": "chingshin",
+      "name": "翡翠烏龍菁茶拿鐵加珍珠",
+      "recipe": "翡翠烏龍與菁茶混茶，加入鮮奶及珍珠。",
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/talk/p/241435849",
+      "date": "2023-03-09",
+      "stance": "positive",
+      "note": "2023年歷史喝法。作者實喝翡翠烏龍搭菁茶、鮮奶與珍珠，喜歡混茶的茶香。大杯；茶比例與糖冰未載，是否能做須問門市。",
+      "dateEvidence": "正常Chrome讀原帖主文，SocialMediaPosting.datePublished=2023-03-09T18:00:44+08:00；dateModified=18:01:17，未用修改日、2026爬取日或留言日期。"
+    },
+    {
+      "recipeId": "50lan-cocoa-ballet-icecream",
+      "shopSlug": "50lan",
+      "name": "可可芭蕾加香草冰淇淋",
+      "recipe": "奶精版可可芭蕾加1球香草冰淇淋。",
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/talk/p/241435849",
+      "date": "2023-03-09",
+      "stance": "positive",
+      "note": "2023年歷史喝法；目前目錄未核有此基底，須先問門市。作者點中杯、無糖微冰，覺得甜度剛好，冰淇淋攪散後像巧克力奶昔。",
+      "dateEvidence": "正常Chrome讀原帖主文，SocialMediaPosting.datePublished=2023-03-09T18:00:44+08:00，網址與標題一致；dateModified=18:01:17，不拿修改或留言時間代替。"
+    },
+    {
+      "recipeId": "kebuke-black-white-pearls",
+      "shopSlug": "kebuke",
+      "name": "熟成紅茶加白玉珍珠",
+      "recipe": "熟成紅茶加白玉珍珠。",
+      "platform": "PTT",
+      "url": "https://www.ptt.cc/bbs/Drink/M.1498174308.A.56D.html",
+      "date": "2017-06-23",
+      "stance": "positive",
+      "note": "2017年歷史喝法。作者點大杯熟成紅茶加白玉珍珠、無糖常溫，喜歡茶香、微苦與珍珠的嚼勁，表示會回購；現行客製規則須問門市。",
+      "dateEvidence": "已實讀PTT原文主文標頭Time Fri Jun 23 07:31:45 2017。內文另引部落格Jun15日期，但論壇原始發文日用6/23；不採留言、爬取或編輯時間。"
+    },
+    {
+      "recipeId": "starbucks-hojicha-oat-espresso-three-scoops",
+      "shopSlug": "starbucks",
+      "name": "福吉茶那堤換燕麥奶＋濃縮",
+      "recipe": "特大杯冰福吉茶那堤，茶粉3匙、換燕麥奶、加1份濃縮咖啡。",
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/food/p/259961235",
+      "date": "2025-10-04",
+      "stance": "positive",
+      "note": "作者實喝覺得好喝，選少冰補滿；杯貼可核對3匙粉、燕麥奶與1份濃縮。2025年經驗，供應與調整依門市。",
+      "dateEvidence": "原主文SocialMediaPosting.datePublished=2025-10-04T07:48:42+08:00，與主文time一致；未採2025-12-19的dateModified。"
+    },
+    {
+      "recipeId": "letscafe-red-guava-milk-double-espresso",
+      "shopSlug": "letscafe",
+      "name": "紅心芭樂牛奶＋雙份濃縮",
+      "recipe": "全家紅心芭樂牛奶加2份濃縮咖啡。",
+      "platform": "Threads",
+      "url": "https://www.threads.com/@ayeh7524/post/DNa4DldP2TL",
+      "date": "2025-08-16",
+      "stance": "positive",
+      "note": "作者多次到全家點這個組合，覺得好喝；容量糖冰未載。2025年門市喝法，原文已提缺貨可能，現場供應需確認。",
+      "dateEvidence": "原作者主文permalink的time datetime=2025-08-16T14:52:54.000Z，換算台灣2025-08-16 22:52；不採留言或相對時間。"
+    },
+    {
+      "recipeId": "louisa-specialty-latte-oat",
+      "shopSlug": "louisa",
+      "name": "莊園拿鐵換燕麥奶",
+      "recipe": "路易莎莊園拿鐵將牛奶換成燕麥奶。",
+      "platform": "Threads",
+      "url": "https://www.threads.com/@7ruwen_/post/C3E5WtPrBVF",
+      "date": "2024-02-08",
+      "stance": "negative",
+      "note": "作者當天喝莊園拿鐵換燕麥奶，覺得難喝；容量糖冰未載。2024年個人經驗，不能概括現行奶款或所有門市。",
+      "dateEvidence": "原作者主文permalink的time datetime=2024-02-08T06:30:17.000Z，換算台灣2024-02-08 14:30；非留言或搜尋時間。"
     }
   ],
   "dateCorrections": [
