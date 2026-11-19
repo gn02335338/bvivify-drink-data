@@ -24,7 +24,7 @@ export function forumThreadKey(entry) {
     const id = url.pathname.match(/\/(?:p|post)\/(\d+)/)?.[1];
     if (id) return 'Dcard/' + id;
   }
-  if (entry.platform === 'PTT' && /^\/bbs\/(?:Drink|Coffee)\/M\.[\w.]+\.html$/i.test(url.pathname)) {
+  if (entry.platform === 'PTT' && /^\/bbs\/(?:Drink|Coffee|Starbucks|CVS)\/M\.[\w.]+\.html$/i.test(url.pathname)) {
     return 'PTT/' + url.pathname.toLowerCase();
   }
   if (entry.platform === 'Threads') {

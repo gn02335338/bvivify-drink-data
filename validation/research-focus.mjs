@@ -130,11 +130,23 @@ export function researchFocus({ shops, plan, seed = [], daily = { records: [] },
         recentBrands.push(shop);
       }
     }
+    const coffeePriority = freshnessPlan.coffeePriority;
+    const coffeePrioritySlugs = knownValues(coffeePriority?.brandSlugs, brands, 'coffee brand slug')
+      .filter(slug => brands.get(slug).type === 'coffee');
+    for (const slug of coffeePrioritySlugs) {
+      const shop = brands.get(slug);
+      focus(shop, '每日咖啡近期原帖：星巴克、路易莎、cama與超商');
+      if (!recentBrands.some(brand => brand.slug === slug)) recentBrands.push(shop);
+    }
     for (const window of windows) {
-      for (const shop of recentBrands) recentSearches.push({
+      const sorted = [...recentBrands].sort((a, b) => Number(coffeePrioritySlugs.includes(b.slug)) - Number(coffeePrioritySlugs.includes(a.slug)));
+      for (const shop of sorted) recentSearches.push({
         windowDays: window.days, from: window.from, to: window.to,
         shopSlug: shop.slug, shopName: shop.name, type: shop.type,
-        queryHint: shop.name + ' 飲用心得 ' + window.from + ' ' + window.to,
+        ...(coffeePrioritySlugs.includes(shop.slug) ? { priority: 'daily_coffee' } : {}),
+        aliases: [...new Set([shop.name, ...(Array.isArray(shop.aliases) ? shop.aliases : [])])],
+        queryHint: shop.name + (shop.type === 'coffee' ? ' 咖啡 拿鐵 美式 實喝 心得' : ' 飲用心得'),
+        ...(shop.type === 'coffee' ? { discoveryHints: ['Dcard全站最新（包含個人牆，不只coffee板）', 'Threads最新原文', 'PTT Coffee／Starbucks／CVS', 'Mobile01原始討論'] } : {}),
         rule: 'Read the original first-hand post and confirm its original publication date within this inclusive window. Search snippets, modified dates, crawl times and review times are not publication-date evidence.',
       });
     }
@@ -155,6 +167,12 @@ export function researchFocus({ shops, plan, seed = [], daily = { records: [] },
       uniqueThreads: originals.size,
       unknownDateThreads: unknown.length,
       windows: windows.map(window => ({ ...window, verifiedOriginals: [...originals.values()].filter(original => original.date && original.date >= window.from && original.date <= window.to).length })),
+      byType: ['tea', 'coffee'].map(type => {
+        const matching = [...originals.values()].filter(original => [...original.drinkIds].some(id => drinks.get(id).shop.type === type));
+        return { type, uniqueThreads: matching.length, unknownDateThreads: matching.filter(original => !original.date).length,
+          windows: windows.map(window => ({ ...window, verifiedOriginals: matching.filter(original => original.date && original.date >= window.from && original.date <= window.to).length })) };
+      }),
+      ...(coffeePriority ? { coffeePriority: { brandSlugs: coffeePrioritySlugs, originalChecksTarget: Math.min(6, Math.max(0, Number(coffeePriority.originalChecksTarget) || 0)), qualifiedAdditionsTarget: Math.min(2, Math.max(0, Number(coffeePriority.qualifiedAdditionsTarget) || 0)) } } : {}),
     };
   }
   const expanded = plan.expandedDrinkRotation;

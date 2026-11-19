@@ -5245,6 +5245,21 @@
           "sweetness": "unknown"
         },
         {
+          "id": "louisa-guava-plum-americano",
+          "name": "芭樂青美式",
+          "base": "coffee",
+          "tags": [
+            "coffee",
+            "fruit",
+            "refreshing",
+            "flavored"
+          ],
+          "sourceUrl": "https://www.louisacoffee.co/news",
+          "description": "紅心芭樂與脆梅搭配美式咖啡，帶果香、酸甜和咖啡微苦。",
+          "order": "官網2026/9/1列示的季節飲品；甜度、冰量與實際供應依門市",
+          "sweetness": "unknown"
+        },
+        {
           "id": "louisa-menu-8d6a459d87",
           "name": "抹茶風味拿鐵",
           "base": "coffee",
