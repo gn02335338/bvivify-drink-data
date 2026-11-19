@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "updatedOn": "2026-11-19",
   "website": "https://drink.bvivify.com/",
   "repository": "gn02335338/bvivify-drink-data",
@@ -2277,6 +2277,16 @@
       ]
     }
   ],
+  "freshnessResearch": {
+    "anchorDate": "2026-11-19",
+    "priorityWindows": [
+      7,
+      30
+    ],
+    "brandsPerTypePerDay": 1,
+    "dateBackfillsPerDay": 2,
+    "rule": "First search first-hand originals published in the last 7 days, then the last 30 days. Rotate at least one tea and one coffee brand by Taipei calendar day. Then verify up to two missing original publication dates, before expanded-drink and onboarding research. Never substitute a review, crawl, update or modification date for the original publication date. All stages share the existing daily limits."
+  },
   "onboardingRotation": {
     "anchorDate": "2026-11-18",
     "brandsPerDay": 3,
@@ -4080,11 +4090,12 @@
       "teamagic-menu-bdb50436",
       "teamagic-menu-2c1b72d8"
     ],
-    "rule": "Use Taipei calendar days since anchorDate; start at (dayOffset * itemsPerDay) modulo drinkIds.length and take itemsPerDay consecutive IDs. Research these newly expanded drinks first, then the brand rotation; favor missing or sparse evidence. All research shares the existing daily limits. Search attempts are not verified evidence."
+    "rule": "After recent-post searches and publication-date backfills, use Taipei calendar days since anchorDate; start at (dayOffset * itemsPerDay) modulo drinkIds.length and take itemsPerDay consecutive IDs, followed by the brand rotation. Favor missing or sparse evidence. All research shares the existing daily limits. Search attempts are not verified evidence."
   },
   "dailyLimits": {
     "originalPosts": 12,
-    "additions": 5
+    "additions": 5,
+    "dateCorrections": 2
   },
-  "evidencePolicy": "Read the original first-hand post and verify the current primary menu within its documented store, region and version. Preserve all existing records; no qualified new evidence means no change to reviewedOn. Respect access restrictions. Visitor reactions and comments are not verified external forum evidence."
+  "evidencePolicy": "Read the original first-hand post and its original publication date, and verify the current primary menu within its documented store, region and version. Preserve all existing records and date corrections; confirmed missing dates are appended as traceable dateCorrections, never edits to prior records. Null dates remain outside recent-window rankings. No qualified new evidence or date backfill means no change to reviewedOn. Respect access restrictions. Visitor reactions and comments are not verified external forum evidence."
 }
