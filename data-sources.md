@@ -67,7 +67,7 @@ node scripts/publish-forum-daily.mjs
 node scripts/publish-forum-daily.mjs --publish
 ```
 
-上述指令保留作擁有者明確授權的一次性本機維護備援，最後一個指令須使用已有授權的 Wrangler。維護批次與雲端日常的 5 筆新增／2 篇補核配額分開，仍須保留歷史、檢查日期一致並拒絕晚於台灣今日的核對日。日常查證沿用 [ChatGPT 網頁版雲端排程](https://chatgpt.com/scheduled?automationId=6afc7d4ed9cc8190ab8fb1c9e6887ee3&automationSource=cloud)，任務 ID `6afc7d4ed9cc8190ab8fb1c9e6887ee3`，本次目標名稱「喝起來每日近期論壇查證（雲端）」，每天台灣時間 09:30，不需要保持電腦或 Codex App 開啟。本次提示詞與改名的儲存狀態由主維護流程重新開啟任務確認，文件本身不構成已儲存證據。舊的本機排程已暫停，避免重複執行。
+上述指令保留作擁有者明確授權的一次性本機維護備援，最後一個指令須使用已有授權的 Wrangler。維護批次與雲端日常的 5 筆新增／2 篇補核配額分開，仍須保留歷史、檢查日期一致並拒絕晚於台灣今日的核對日。日常查證沿用 [ChatGPT 網頁版雲端排程](https://chatgpt.com/scheduled?automationId=6afc7d4ed9cc8190ab8fb1c9e6887ee3&automationSource=cloud)，任務 ID `6afc7d4ed9cc8190ab8fb1c9e6887ee3`，任務名稱「喝起來每日近期論壇查證（雲端）」，每天台灣時間 09:30，不需要保持電腦或 Codex App 開啟。2026-11-19已儲存近期優先提示詞並改名，重新開啟確認指示全文一致、任務使用中與每日09:30台灣時間；此次未另觸發雲端查證。舊的本機排程已暫停，避免重複執行。
 
 雲端工作使用訂閱提供的搜尋與 GitHub 連接工具，更新 [喝起來公開資料倉庫](https://github.com/gn02335338/bvivify-drink-data) 的累積增量。驗證通過後，現有網站從固定來源同步到原本的儲存；不使用額外付費 AI API、Sites hosting 或 GitHub Actions。網站每天台灣時間 10:00 有備援同步。可用 [正式資料端點](https://drink.bvivify.com/api/forum-daily) 和 [同步狀態](https://drink.bvivify.com/api/forum-sync-status) 查詢結果。詳細流程與失敗處理見 `docs/cloud-forum-update.md`。
 
