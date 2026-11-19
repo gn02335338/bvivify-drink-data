@@ -1,117 +1,22 @@
 {
-  "reviewedOn": "2026-11-18",
+  "reviewedOn": "2026-11-19",
   "records": [
-    {
-      "drinkId": "louisa-coffee-latte",
-      "platform": "Dcard",
-      "url": "https://www.dcard.tw/f/boba/p/261346441",
-      "date": null,
-      "stance": "positive",
-      "note": "試喝熱無糖版本，認為咖啡和牛奶比例適中，也喜歡奶泡細滑。"
-    },
-    {
-      "drinkId": "louisa-specialty-latte",
-      "platform": "Mobile01",
-      "url": "https://m.mobile01.com/topicdetail.php?f=640&t=6525630",
-      "date": "2022-01-16",
-      "stance": "negative",
-      "note": "比較多家拿鐵後，發文者覺得當時喝到的莊園級拿鐵奶味蓋過咖啡，尾段略苦。同飲者也覺得苦味偏重。"
-    },
-    {
-      "drinkId": "starbucks-caramel-macchiato",
-      "platform": "Mobile01",
-      "url": "https://www.mobile01.com/topicdetail.php?f=37&t=2247544",
-      "date": "2011-07-11",
-      "stance": "positive",
-      "note": "發文者點了熱焦糖瑪奇朵，表示喜歡。這是較早期的點餐心得。"
-    },
-    {
-      "drinkId": "louisa-farm-milk-tea",
-      "platform": "Dcard",
-      "url": "https://www.dcard.tw/f/food/p/245597678",
-      "date": null,
-      "stance": "negative",
-      "note": "作者自述點微糖微冰，覺得奶味比印象中淡、喝起來近似純紅茶；杯貼冰量有留言提出疑義，門市未明。"
-    },
-    {
-      "drinkId": "cama-oat-latte",
-      "platform": "Dcard",
-      "url": "https://www.dcard.tw/f/coffee/p/239187710",
-      "date": null,
-      "stance": "positive",
-      "note": "作者喝過店售燕麥拿鐵後喜歡咖啡香與燕麥奶的搭配，偏好勝過自己喝過的其他連鎖品牌；糖度、冷熱與門市未提。"
-    },
-    {
-      "drinkId": "louisa-piccolo",
-      "platform": "Dcard",
-      "url": "https://www.dcard.tw/f/food/p/232483668",
-      "date": null,
-      "stance": "positive",
-      "note": "作者試喝熱無糖特濃小卡布，喜歡濃郁的咖啡與牛奶口感；未交代門市。"
-    },
-    {
-      "drinkId": "kebuke-green",
-      "platform": "Dcard",
-      "url": "https://www.dcard.tw/f/boba/p/260410870",
-      "date": null,
-      "stance": "positive",
-      "note": "作者實喝無糖春芽綠茶，喜歡濃厚茶味、順口與回甘，表示願意回購；冰量與門市未提。"
-    },
-    {
-      "drinkId": "kebuke-green",
-      "platform": "Dcard",
-      "url": "https://www.dcard.tw/f/boba/p/239813355",
-      "date": null,
-      "stance": "mixed",
-      "note": "作者先前喜歡微糖春芽綠茶，這次改點無糖卻覺得難喝，向板友詢問補救方式；冰量與門市未提。"
-    },
-    {
-      "drinkId": "guiji-blooming-oolong",
-      "platform": "Dcard",
-      "url": "https://www.dcard.tw/f/boba/p/256449960",
-      "date": null,
-      "stance": "positive",
-      "note": "作者實喝半糖花沫烏龍，喜歡花香與烏龍茶的搭配，覺得順口且甜而不膩；冰量與門市未提。"
-    },
-    {
-      "drinkId": "wootea-honest-black",
-      "platform": "Dcard",
-      "url": "https://www.dcard.tw/f/boba/p/260466127",
-      "date": null,
-      "stance": "positive",
-      "note": "作者購買無糖去冰老實人紅茶，覺得紅茶風味完整、不澀，表示願意回購；未交代門市。"
-    },
-    {
-      "drinkId": "wootea-honest-black",
-      "platform": "Dcard",
-      "url": "https://www.dcard.tw/f/boba/p/240147634",
-      "date": null,
-      "stance": "negative",
-      "note": "作者常喝老實人紅茶，覺得住家附近門市的版本比先前另一家店少了香氣與順口感；糖冰未明，製作差異原因未確認。"
-    },
-    {
-      "drinkId": "tptea-gongfu-black",
-      "platform": "Dcard",
-      "url": "https://www.dcard.tw/f/food/p/242548688",
-      "date": null,
-      "stance": "positive",
-      "note": "作者以台中、太平飲茶經驗推薦功夫紅茶，覺得茶味厚但不膩；平常偏好一分糖微冰，未確認此杯確切糖冰、加料或門市。"
-    },
-    {
-      "drinkId": "guiji-33-king",
-      "platform": "Dcard",
-      "url": "https://www.dcard.tw/f/boba/p/238737218",
-      "date": null,
-      "stance": "positive",
-      "note": "作者自述常點三十三茶王，覺得帶金萱奶香；門市位於台南，糖度、冰量與加料未提。"
-    },
-    {
-      "drinkId": "mccafe-americano",
-      "platform": "Dcard",
-      "url": "https://www.dcard.tw/f/fastfood/p/253362037",
-      "date": null,
-      "stance": "negative",
-      "note": "作者早餐加購美式後覺得苦酸、難以喝完；未交代冰熱、糖度或門市，屬較早期經驗。"
-    }
+    {"drinkId":"louisa-coffee-latte","platform":"Dcard","url":"https://www.dcard.tw/f/boba/p/261346441","date":null,"stance":"positive","note":"試喝熱無糖版本，認為咖啡和牛奶比例適中，也喜歡奶泡細滑。"},
+    {"drinkId":"louisa-specialty-latte","platform":"Mobile01","url":"https://m.mobile01.com/topicdetail.php?f=640&t=6525630","date":"2022-01-16","stance":"negative","note":"比較多家拿鐵後，發文者覺得當時喝到的莊園級拿鐵奶味蓋過咖啡，尾段略苦。同飲者也覺得苦味偏重。"},
+    {"drinkId":"starbucks-caramel-macchiato","platform":"Mobile01","url":"https://www.mobile01.com/topicdetail.php?f=37&t=2247544","date":"2011-07-11","stance":"positive","note":"發文者點了熱焦糖瑪奇朵，表示喜歡。這是較早期的點餐心得。"},
+    {"drinkId":"louisa-farm-milk-tea","platform":"Dcard","url":"https://www.dcard.tw/f/food/p/245597678","date":null,"stance":"negative","note":"作者自述點微糖微冰，覺得奶味比印象中淡、喝起來近似純紅茶；杯貼冰量有留言提出疑義，門市未明。"},
+    {"drinkId":"cama-oat-latte","platform":"Dcard","url":"https://www.dcard.tw/f/coffee/p/239187710","date":null,"stance":"positive","note":"作者喝過店售燕麥拿鐵後喜歡咖啡香與燕麥奶的搭配，偏好勝過自己喝過的其他連鎖品牌；糖度、冷熱與門市未提。"},
+    {"drinkId":"louisa-piccolo","platform":"Dcard","url":"https://www.dcard.tw/f/food/p/232483668","date":null,"stance":"positive","note":"作者試喝熱無糖特濃小卡布，喜歡濃郁的咖啡與牛奶口感；未交代門市。"},
+    {"drinkId":"kebuke-green","platform":"Dcard","url":"https://www.dcard.tw/f/boba/p/260410870","date":null,"stance":"positive","note":"作者實喝無糖春芽綠茶，喜歡濃厚茶味、順口與回甘，表示願意回購；冰量與門市未提。"},
+    {"drinkId":"kebuke-green","platform":"Dcard","url":"https://www.dcard.tw/f/boba/p/239813355","date":null,"stance":"mixed","note":"作者先前喜歡微糖春芽綠茶，這次改點無糖卻覺得難喝，向板友詢問補救方式；冰量與門市未提。"},
+    {"drinkId":"guiji-blooming-oolong","platform":"Dcard","url":"https://www.dcard.tw/f/boba/p/256449960","date":null,"stance":"positive","note":"作者實喝半糖花沫烏龍，喜歡花香與烏龍茶的搭配，覺得順口且甜而不膩；冰量與門市未提。"},
+    {"drinkId":"wootea-honest-black","platform":"Dcard","url":"https://www.dcard.tw/f/boba/p/260466127","date":null,"stance":"positive","note":"作者購買無糖去冰老實人紅茶，覺得紅茶風味完整、不澀，表示願意回購；未交代門市。"},
+    {"drinkId":"wootea-honest-black","platform":"Dcard","url":"https://www.dcard.tw/f/boba/p/240147634","date":null,"stance":"negative","note":"作者常喝老實人紅茶，覺得住家附近門市的版本比先前另一家店少了香氣與順口感；糖冰未明，製作差異原因未確認。"},
+    {"drinkId":"tptea-gongfu-black","platform":"Dcard","url":"https://www.dcard.tw/f/food/p/242548688","date":null,"stance":"positive","note":"作者以台中、太平飲茶經驗推薦功夫紅茶，覺得茶味厚但不膩；平常偏好一分糖微冰，未確認此杯確切糖冰、加料或門市。"},
+    {"drinkId":"guiji-33-king","platform":"Dcard","url":"https://www.dcard.tw/f/boba/p/238737218","date":null,"stance":"positive","note":"作者自述常點三十三茶王，覺得帶金萱奶香；門市位於台南，糖度、冰量與加料未提。"},
+    {"drinkId":"mccafe-americano","platform":"Dcard","url":"https://www.dcard.tw/f/fastfood/p/253362037","date":null,"stance":"negative","note":"作者早餐加購美式後覺得苦酸、難以喝完；未交代冰熱、糖度或門市，屬較早期經驗。"},
+    {"drinkId":"comebuy-menu-95276af8545a","platform":"Dcard","url":"https://www.dcard.tw/f/food/p/238001233","date":null,"stance":"mixed","note":"作者實喝海神奶茶微糖微冰，覺得蜂蜜香重、茶香受影響且奶精感不穩；可接受但不會特別回購。原帖舊稱，現行目錄列嗨神奶茶。"},
+    {"drinkId":"unocha-jinxuan-latte","platform":"Dcard","url":"https://www.dcard.tw/f/boba/p/254208271","date":null,"stance":"positive","note":"作者實喝金萱烏龍拿鐵微冰微糖，覺得茶淡雅有味、鮮奶與茶融合；屬較早期心得，門市未提。"},
+    {"drinkId":"85cafe-latte","platform":"Dcard","url":"https://www.dcard.tw/f/boba/p/261346441","date":null,"stance":"mixed","note":"作者實喝熱無糖小杯拿鐵咖啡，覺得咖啡苦澀明顯但整體柔和、相較其他品牌稍稀；屬個人比較心得，門市未提。"}
   ]
 }
