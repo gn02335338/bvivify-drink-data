@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "updatedOn": "2026-11-19",
   "website": "https://drink.bvivify.com/",
   "repository": "gn02335338/bvivify-drink-data",
@@ -4111,5 +4111,10 @@
     "additions": 5,
     "dateCorrections": 2
   },
-  "evidencePolicy": "Read the original first-hand post and its original publication date, and verify the current primary menu within its documented store, region and version. Preserve all existing records and date corrections; confirmed missing dates are appended as traceable dateCorrections, never edits to prior records. Null dates remain outside recent-window rankings. No qualified new evidence or date backfill means no change to reviewedOn. Respect access restrictions. Visitor reactions and comments are not verified external forum evidence."
+  "customRecipePolicy": {
+    "enabled": true,
+    "label": "客製喝法・非官方菜單",
+    "rule": "Discover custom orders within the same five daily coffee-brand searches and existing tea rotation, first within 7 days then 30 days. Store first-hand custom orders only in customRecords with stable recipeId, known shopSlug, concise name, exact recipe/order, original platform/url/date/stance/note and 20–240 character dateEvidence for known dates. Never force a standard drinkId. The same recipeId must retain brand, name and recipe; reuse the existing recipeId for an identical brand/name/recipe instead of minting aliases, and preserve every historical custom record. Date corrections apply to the original across standard and custom observations. Custom originals may contribute once to brand/type freshness and brand discussion, but never to standard-drink statistics, rankings or recommendation evidence. The five-addition limit is shared by records and customRecords; original-page checks remain twelve and date corrections two. No valid evidence means no addition."
+  },
+  "evidencePolicy": "Read the original first-hand post and its original publication date, and verify the current primary menu within its documented store, region and version. Preserve all existing records, customRecords and date corrections; confirmed missing dates are appended as traceable dateCorrections, never edits to prior records. Custom orders are independently labelled and are not official menu items. Null dates remain outside recent-window rankings. No qualified new evidence or date backfill means no change to reviewedOn. Respect access restrictions. Visitor reactions and comments are not verified external forum evidence."
 }

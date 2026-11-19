@@ -8,11 +8,11 @@ export function validateCloudForumUpdate(source, liveSource, seed, shops, { toda
   const live = validateDailyForum(liveSource, seed, shops);
   validateForumReviewDate(candidate.reviewedOn, { today });
   if (candidate.reviewedOn < live.reviewedOn) throw new Error('Review date is older than production');
-  const { added, datesCorrected } = compareDailyForumHistory(live, candidate);
-  if (!added && !datesCorrected && candidate.reviewedOn !== live.reviewedOn) {
+  const { added, customAdded, datesCorrected } = compareDailyForumHistory(live, candidate);
+  if (!added && !customAdded && !datesCorrected && candidate.reviewedOn !== live.reviewedOn) {
     throw new Error('Do not advance the date without new evidence or a verified publication-date backfill');
   }
-  if (added > 5) throw new Error('At most five additions per cloud run');
+  if (added + customAdded > 5) throw new Error('At most five standard and custom additions combined per cloud run');
   if (datesCorrected > 2) throw new Error('At most two publication-date corrections per cloud run');
-  return { candidate, added, datesCorrected };
+  return { candidate, added, customAdded, datesCorrected };
 }

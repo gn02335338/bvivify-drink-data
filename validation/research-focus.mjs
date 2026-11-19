@@ -37,6 +37,9 @@ export function researchFocus({ shops, plan, seed = [], daily = { records: [] },
     }
   }
   const evidence = new Map();
+  const brandEvidence = new Map();
+  const customRecipes = new Map();
+  const recipeIdsByIdentity = new Map();
   const originals = new Map();
   let invalidRecords = 0;
   const recordsOf = value => Array.isArray(value) ? value : Array.isArray(value?.records) ? value.records : [];
@@ -47,15 +50,43 @@ export function researchFocus({ shops, plan, seed = [], daily = { records: [] },
       const key = forumThreadKey(record);
       if (!evidence.has(record.drinkId)) evidence.set(record.drinkId, new Set());
       evidence.get(record.drinkId).add(key);
-      if (!originals.has(key)) originals.set(key, { key, platform: record.platform, url: record.url, dates: new Set(), drinkIds: new Set() });
+      if (!originals.has(key)) originals.set(key, { key, platform: record.platform, url: record.url, dates: new Set(), drinkIds: new Set(), recipeIds: new Set(), shopSlugs: new Set() });
       const original = originals.get(key);
       original.drinkIds.add(record.drinkId);
+      const slug = drinks.get(record.drinkId).shop.slug;
+      original.shopSlugs.add(slug);
+      if (!brandEvidence.has(slug)) brandEvidence.set(slug, new Set());
+      brandEvidence.get(slug).add(key);
       try { calendarDay(record.date); original.dates.add(record.date); } catch { /* Date remains unconfirmed. */ }
+    } catch { invalidRecords++; }
+  }
+  for (const record of recordsOf(daily.customRecords)) {
+    if (!record || !brands.has(record.shopSlug) || typeof record.recipeId !== 'string' ||
+      record.recipeId.length > 100 || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(record.recipeId) || Object.hasOwn(record, 'drinkId') ||
+      typeof record.name !== 'string' || !record.name.trim() || record.name.trim().length > 60 ||
+      typeof record.recipe !== 'string' || !record.recipe.trim() || record.recipe.trim().length > 160 ||
+      !['positive', 'negative', 'mixed'].includes(record.stance) || typeof record.note !== 'string' || !record.note.trim() || record.note.trim().length > 160 ||
+      (record.date !== null && (typeof record.dateEvidence !== 'string' || record.dateEvidence.trim().length < 20 || record.dateEvidence.trim().length > 240))) { invalidRecords++; continue; }
+    try {
+      const key = forumThreadKey(record);
+      const identity = { recipeId: record.recipeId, shopSlug: record.shopSlug, name: record.name.trim(), recipe: record.recipe.trim() };
+      if (customRecipes.has(record.recipeId) && JSON.stringify(customRecipes.get(record.recipeId)) !== JSON.stringify(identity)) throw new Error('Conflicting recipe identity');
+      const identityKey = JSON.stringify([identity.shopSlug, identity.name, identity.recipe]);
+      if (recipeIdsByIdentity.has(identityKey) && recipeIdsByIdentity.get(identityKey) !== record.recipeId) throw new Error('Duplicate recipe alias');
+      customRecipes.set(record.recipeId, identity);
+      recipeIdsByIdentity.set(identityKey, record.recipeId);
+      if (!originals.has(key)) originals.set(key, { key, platform: record.platform, url: record.url, dates: new Set(), drinkIds: new Set(), recipeIds: new Set(), shopSlugs: new Set() });
+      const original = originals.get(key);
+      original.recipeIds.add(record.recipeId);
+      original.shopSlugs.add(record.shopSlug);
+      if (!brandEvidence.has(record.shopSlug)) brandEvidence.set(record.shopSlug, new Set());
+      brandEvidence.get(record.shopSlug).add(key);
+      try { calendarDay(record.date); original.dates.add(record.date); } catch { /* Keep unknown dates outside recent windows. */ }
     } catch { invalidRecords++; }
   }
   if (invalidRecords) warnings.push(`Ignored ${invalidRecords} invalid or unknown evidence records`);
   const sampleCount = id => evidence.get(id)?.size ?? 0;
-  const shopSamples = shop => new Set(shop.drinks.flatMap(drink => [...(evidence.get(drink.id) ?? [])])).size;
+  const shopSamples = shop => brandEvidence.get(shop.slug)?.size ?? 0;
   const lowSampleDrinks = shop => shop.drinks.map((drink, position) => ({ drink, position }))
     .sort((a, b) => sampleCount(a.drink.id) - sampleCount(b.drink.id) || a.position - b.position)
     .slice(0, 2).map(item => item.drink.id);
@@ -89,6 +120,7 @@ export function researchFocus({ shops, plan, seed = [], daily = { records: [] },
     prioritized.set(id, target); priorityDrinks.push(target);
   }
   const recentSearches = [];
+  const customRecipeSearchTargets = [];
   const dateBackfillTargets = [];
   let freshness;
   const freshnessPlan = plan.freshnessResearch;
@@ -146,9 +178,22 @@ export function researchFocus({ shops, plan, seed = [], daily = { records: [] },
         ...(coffeePrioritySlugs.includes(shop.slug) ? { priority: 'daily_coffee' } : {}),
         aliases: [...new Set([shop.name, ...(Array.isArray(shop.aliases) ? shop.aliases : [])])],
         queryHint: shop.name + (shop.type === 'coffee' ? ' 咖啡 拿鐵 美式 實喝 心得' : ' 飲用心得'),
+        ...(plan.customRecipePolicy?.enabled ? {
+          customRecipeHint: 'Within this same brand search, also check original first-hand custom orders and hidden recipes. Record the exact recipe separately in customRecords; never infer a standard menu SKU or count custom evidence in standard-drink rankings.',
+        } : {}),
         ...(shop.type === 'coffee' ? { discoveryHints: ['Dcard全站最新（包含個人牆，不只coffee板）', 'Threads最新原文', 'PTT Coffee／Starbucks／CVS', 'Mobile01原始討論'] } : {}),
         rule: 'Read the original first-hand post and confirm its original publication date within this inclusive window. Search snippets, modified dates, crawl times and review times are not publication-date evidence.',
       });
+    }
+    if (plan.customRecipePolicy?.enabled) {
+      for (const identity of customRecipes.values()) {
+        const shop = brands.get(identity.shopSlug);
+        customRecipeSearchTargets.push({
+          ...identity, shopName: shop.name, type: shop.type,
+          queryHint: shop.name + ' ' + identity.name + ' 客製 喝法 心得',
+          rule: 'A research hint within the existing brand searches, not an extra mandatory page check. Confirm this exact order from a first-hand original, retain recipeId/name/recipe identity, and keep it separate from verified menu items. The same twelve-page, five-total-addition and two-date-correction caps apply.',
+        });
+      }
     }
     const unknown = [...originals.values()].filter(original => !original.date);
     const count = Math.min(2, Number.isInteger(freshnessPlan.dateBackfillsPerDay) ? Math.max(0, freshnessPlan.dateBackfillsPerDay) : 2);
@@ -158,7 +203,7 @@ export function researchFocus({ shops, plan, seed = [], daily = { records: [] },
     for (const key of count ? keys.slice(0, count) : []) {
       const original = originals.get(key);
       dateBackfillTargets.push({
-        platform: original.platform, url: original.url, drinkIds: [...original.drinkIds],
+        platform: original.platform, url: original.url, drinkIds: [...original.drinkIds], recipeIds: [...original.recipeIds],
         rule: 'Confirm the original publication date from the original page. Append a dateCorrections entry with verifiedOn and 20–240 character dateEvidence; leave unknown if the original date is unavailable. Never use an update or modification timestamp.',
       });
     }
@@ -168,8 +213,15 @@ export function researchFocus({ shops, plan, seed = [], daily = { records: [] },
       unknownDateThreads: unknown.length,
       windows: windows.map(window => ({ ...window, verifiedOriginals: [...originals.values()].filter(original => original.date && original.date >= window.from && original.date <= window.to).length })),
       byType: ['tea', 'coffee'].map(type => {
-        const matching = [...originals.values()].filter(original => [...original.drinkIds].some(id => drinks.get(id).shop.type === type));
+        const matching = [...originals.values()].filter(original => [...original.shopSlugs].some(slug => brands.get(slug).type === type));
         return { type, uniqueThreads: matching.length, unknownDateThreads: matching.filter(original => !original.date).length,
+          windows: windows.map(window => ({ ...window, verifiedOriginals: matching.filter(original => original.date && original.date >= window.from && original.date <= window.to).length })) };
+      }),
+      byBrand: [...brands.values()].map(shop => {
+        const matching = [...originals.values()].filter(original => original.shopSlugs.has(shop.slug));
+        return { shopSlug: shop.slug, name: shop.name, type: shop.type, uniqueThreads: matching.length,
+          customThreads: matching.filter(original => [...original.recipeIds].some(id => customRecipes.get(id).shopSlug === shop.slug)).length,
+          unknownDateThreads: matching.filter(original => !original.date).length,
           windows: windows.map(window => ({ ...window, verifiedOriginals: matching.filter(original => original.date && original.date >= window.from && original.date <= window.to).length })) };
       }),
       ...(coffeePriority ? { coffeePriority: { brandSlugs: coffeePrioritySlugs, originalChecksTarget: Math.min(6, Math.max(0, Number(coffeePriority.originalChecksTarget) || 0)), qualifiedAdditionsTarget: Math.min(2, Math.max(0, Number(coffeePriority.qualifiedAdditionsTarget) || 0)) } } : {}),
@@ -196,7 +248,7 @@ export function researchFocus({ shops, plan, seed = [], daily = { records: [] },
   return {
     date, catalogCounts: { brands: brands.size, drinks: drinks.size },
     limits: { ...DAILY_LIMITS, ...(freshnessPlan ? { dateCorrections: 2 } : {}) },
-    ...(freshnessPlan ? { priorityStages: ['recent_7_days', 'recent_30_days', 'publication_date_backfill', 'expanded_drink_rotation', 'onboarding_rotation'], freshness, recentSearches, dateBackfillTargets } : {}),
+    ...(freshnessPlan ? { priorityStages: ['recent_7_days', 'recent_30_days', 'publication_date_backfill', 'expanded_drink_rotation', 'onboarding_rotation'], freshness, recentSearches, dateBackfillTargets, customRecipeSearchTargets } : {}),
     focusBrands, priorityDrinks, warnings,
   };
 }

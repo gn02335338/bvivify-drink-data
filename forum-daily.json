@@ -322,6 +322,20 @@
       "note": "實際喝後喜歡經典冰磚拿鐵，覺得好喝；文中也提到領券價。"
     }
   ],
+  "customRecords": [
+    {
+      "recipeId": "citycafe-black-tea-latte-espresso",
+      "shopSlug": "citycafe",
+      "name": "紅茶拿鐵＋一份濃縮",
+      "recipe": "紅茶拿鐵加一份濃縮咖啡。",
+      "platform": "Threads",
+      "url": "https://www.threads.com/@milktea7832/post/DftIrTqHYHI",
+      "date": "2026-11-14",
+      "stance": "positive",
+      "note": "作者實喝店員推薦的組合，覺得好喝；糖度、冰量未載。",
+      "dateEvidence": "原帖本人主文permalink的time datetime=2026-11-14T02:29:33.000Z；換算台灣2026-11-14 10:29，非照片ALT或留言時間。"
+    }
+  ],
   "dateCorrections": [
     {
       "platform": "Dcard",

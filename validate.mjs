@@ -12,8 +12,8 @@ const response = await fetch('https://drink.bvivify.com/api/forum-daily', {
   headers: { 'Cache-Control': 'no-cache' }, signal: AbortSignal.timeout(12000),
 });
 if (!response.ok) throw new Error('Cannot verify currently published data');
-const { candidate, added, datesCorrected } = validateCloudForumUpdate(source, await response.json(), seed, shops, { today });
+const { candidate, added, customAdded, datesCorrected } = validateCloudForumUpdate(source, await response.json(), seed, shops, { today });
 console.log(JSON.stringify({
-  valid: true, rows: candidate.records.length, additions: added, datesCorrected,
+  valid: true, rows: candidate.records.length, customRows: candidate.customRecords.length, additions: added, customAdded, totalAdditions: added + customAdded, datesCorrected,
   reviewedOn: candidate.reviewedOn,
 }));
