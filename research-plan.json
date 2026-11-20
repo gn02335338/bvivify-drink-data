@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "updatedOn": "2026-11-19",
   "website": "https://drink.bvivify.com/",
   "repository": "gn02335338/bvivify-drink-data",
@@ -4114,6 +4114,19 @@
   "customRecipePolicy": {
     "enabled": true,
     "label": "客製喝法・非官方菜單",
+    "recentPriority": {
+      "brandSlugs": [
+        "50lan",
+        "macu",
+        "guiji",
+        "cama"
+      ],
+      "windowDays": 30,
+      "originalChecksTarget": 4,
+      "qualifiedAdditionsTarget": 2,
+      "rule": "Search all four named brands for first-hand custom orders every day, first within 7 days then 30 Taiwan calendar days. Prioritize up to four of the shared twelve original-page checks and two qualified additions within the shared five-addition cap. A cama custom original can satisfy both coffee and custom targets without double counting. Release unused capacity if no valid evidence is found; never fill with old or unverified recipes."
+    },
+    "allowHistoricalAdditions": false,
     "brandRotation": {
       "anchorDate": "2026-11-19",
       "brandsPerDay": 3,
@@ -4157,9 +4170,9 @@
         "hachiyo",
         "naptea"
       ],
-      "rule": "Rotate three catalog brands per Taipei day, including brands without any custom recipe. Merge these discovery targets into the existing recent searches; start at (dayOffset * brandsPerDay) modulo brandSlugs.length. Search 7 days, then 30 days. Dated historical recipes may supplement the independent recipe section, but never count as recent evidence. This is not an extra page or addition budget."
+      "rule": "Rotate three catalog brands per Taipei day, including brands without any custom recipe. Merge with the four fixed recent custom brands and deduplicate brand searches; start at (dayOffset * brandsPerDay) modulo brandSlugs.length. Search 7 days, then 30 days. Only newly verified originals within the last 30 Taiwan days may be added as custom observations; preserve published historical recipes. This is not an extra page or addition budget."
     },
-    "rule": "Discover custom orders across all monitored tea and coffee brands using customBrandSearchTargets, alongside the same five daily coffee-brand searches and existing tea rotation. Search first within 7 days then 30 days; older first-hand recipes may be added with their actual original dates, without claiming freshness. Store first-hand custom orders only in customRecords with stable recipeId, known shopSlug, concise name, exact recipe/order, original platform/url/date/stance/note and 20–240 character dateEvidence for known dates. A new recipe needs a meaningful change of base, milk, ingredient, topping or quantity; sugar/ice alone is not a new recipe. Never force a standard drinkId. The same recipeId must retain brand, name and recipe; reuse the existing recipeId for the same basic order, retaining sugar/ice and author variations in note instead of minting aliases, and preserve every historical custom record. Date corrections apply to the original across standard and custom observations. Custom originals may contribute once to brand/type freshness and brand discussion, but never to standard-drink statistics, rankings or recommendation evidence. The five-addition limit is shared by records and customRecords; original-page checks remain twelve and date corrections two. No valid evidence means no addition."
+    "rule": "Search the four recentPriority brands every day, and discover custom orders across all monitored tea and coffee brands using the deduplicated customBrandSearchTargets. Merge the same five daily coffee-brand searches and existing tea rotation. Search first within 7 days then 30 days; all new custom observations must have a verified original publication date within the inclusive last 30 Taiwan calendar days. No new historical or unknown-date custom observations. Store first-hand custom orders only in customRecords with stable recipeId, known shopSlug, concise name, exact recipe/order, original platform/url/date/stance/note and 20–240 character dateEvidence. A new recipe needs a meaningful change of base, milk, ingredient, topping or quantity; sugar/ice alone is not a new recipe. Never force a standard drinkId. The same recipeId must retain brand, name and recipe; reuse the existing recipeId for the same basic order, retaining sugar/ice and author variations in note instead of minting aliases, and preserve every historical custom record. Date corrections apply to the original across standard and custom observations. Custom originals may contribute once to brand/type freshness and brand discussion, but never to standard-drink statistics, rankings or recommendation evidence. The five-addition limit is shared by records and customRecords; original-page checks remain twelve and date corrections two. No valid evidence means no addition."
   },
   "evidencePolicy": "Read the original first-hand post and its original publication date, and verify the current primary menu within its documented store, region and version. Preserve all existing records, customRecords and date corrections; confirmed missing dates are appended as traceable dateCorrections, never edits to prior records. Custom orders are independently labelled and are not official menu items. Null dates remain outside recent-window rankings. No qualified new evidence or date backfill means no change to reviewedOn. Respect access restrictions. Visitor reactions and comments are not verified external forum evidence."
 }

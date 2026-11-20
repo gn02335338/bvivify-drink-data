@@ -171,18 +171,23 @@ export function researchFocus({ shops, plan, seed = [], daily = { records: [] },
       focus(shop, '每日咖啡近期原帖：星巴克、路易莎、cama與超商');
       if (!recentBrands.some(brand => brand.slug === slug)) recentBrands.push(shop);
     }
-    if (plan.customRecipePolicy?.enabled && plan.customRecipePolicy.brandRotation) {
+    const customPriority = plan.customRecipePolicy?.enabled ? plan.customRecipePolicy.recentPriority : null;
+    const customPrioritySlugs = knownValues(customPriority?.brandSlugs, brands, 'recent custom brand slug');
+    if (plan.customRecipePolicy?.enabled) {
       const customRotation = plan.customRecipePolicy.brandRotation;
-      const slugs = knownValues(customRotation.brandSlugs, brands, 'custom recipe brand slug');
-      for (const slug of rotation(slugs, customRotation, today, 'customRecipePolicy.brandRotation')) {
+      const slugs = knownValues(customRotation?.brandSlugs, brands, 'custom recipe brand slug');
+      const customSlugs = [...new Set([...customPrioritySlugs, ...rotation(slugs, customRotation, today, 'customRecipePolicy.brandRotation')])];
+      for (const slug of customSlugs) {
         const shop = brands.get(slug);
         const existingRecipes = [...customRecipes.values()].filter(recipe => recipe.shopSlug === slug);
         customBrandSearchTargets.push({
           shopSlug: slug, shopName: shop.name, type: shop.type,
+          priority: customPrioritySlugs.includes(slug) ? 'daily_recent_custom' : 'rotation',
+          windowDays: 30, from: windows[1].from, to: date,
           aliases: [...new Set([shop.name, ...(Array.isArray(shop.aliases) ? shop.aliases : [])])],
           queryHint: shop.name + ' 客製 加料 換奶 配方 實喝',
           existingRecipes,
-          rule: 'Discover first-hand custom orders even when this brand has no existing recipe. Check 7 days then 30 days; retain actual original dates for any historical supplement. Reuse existing recipe identities for the same basic order; sugar/ice alone does not create a new recipe. Share the twelve-original, five-total-addition and two-date-correction caps with all other stages.',
+          rule: 'Discover first-hand custom orders even when this brand has no existing recipe. Check 7 days then 30 days; new custom observations must have a verified original date within the inclusive last 30 Taiwan calendar days. Preserve published historical recipes without adding new old or unknown-date ones. Reuse existing recipe identities for the same basic order; sugar/ice alone does not create a new recipe. Share the twelve-original, five-total-addition and two-date-correction caps with all other stages.',
         });
         focus(shop, '跨品牌客製喝法輪替：保留配方、原帖與原始發文日');
         if (!recentBrands.some(brand => brand.slug === slug)) recentBrands.push(shop);
@@ -194,10 +199,11 @@ export function researchFocus({ shops, plan, seed = [], daily = { records: [] },
         windowDays: window.days, from: window.from, to: window.to,
         shopSlug: shop.slug, shopName: shop.name, type: shop.type,
         ...(coffeePrioritySlugs.includes(shop.slug) ? { priority: 'daily_coffee' } : {}),
+        ...(customPrioritySlugs.includes(shop.slug) ? { customPriority: 'daily_recent_custom' } : {}),
         aliases: [...new Set([shop.name, ...(Array.isArray(shop.aliases) ? shop.aliases : [])])],
         queryHint: shop.name + (shop.type === 'coffee' ? ' 咖啡 拿鐵 美式 實喝 心得' : ' 飲用心得'),
         ...(plan.customRecipePolicy?.enabled ? {
-          customRecipeHint: 'Within this same brand search, also check original first-hand custom orders and hidden recipes. Record the exact recipe separately in customRecords; never infer a standard menu SKU or count custom evidence in standard-drink rankings.',
+          customRecipeHint: 'Within this same brand search, check first-hand custom orders published within the last 30 Taiwan calendar days. Record the exact recipe separately in customRecords with a verified original publication date; no new historical or unknown-date custom observations. Never infer a standard menu SKU or count custom evidence in standard-drink rankings.',
         } : {}),
         ...(shop.type === 'coffee' ? { discoveryHints: ['Dcard全站最新（包含個人牆，不只coffee板）', 'Threads最新原文', 'PTT Coffee／Starbucks／CVS', 'Mobile01原始討論'] } : {}),
         rule: 'Read the original first-hand post and confirm its original publication date within this inclusive window. Search snippets, modified dates, crawl times and review times are not publication-date evidence.',
@@ -225,10 +231,21 @@ export function researchFocus({ shops, plan, seed = [], daily = { records: [] },
         rule: 'Confirm the original publication date from the original page. Append a dateCorrections entry with verifiedOn and 20–240 character dateEvidence; leave unknown if the original date is unavailable. Never use an update or modification timestamp.',
       });
     }
+    const customOriginals = [...originals.values()].filter(original => original.recipeIds.size);
+    const customWindowCounts = matching => windows.map(window => ({ ...window, verifiedOriginals: matching.filter(original => original.date && original.date >= window.from && original.date <= window.to).length }));
     freshness = {
       asOf: date,
       uniqueThreads: originals.size,
       unknownDateThreads: unknown.length,
+      custom: {
+        uniqueThreads: customOriginals.length,
+        unknownDateThreads: customOriginals.filter(original => !original.date).length,
+        windows: customWindowCounts(customOriginals),
+        byBrand: [...brands.values()].map(shop => {
+          const matching = customOriginals.filter(original => [...original.recipeIds].some(id => customRecipes.get(id).shopSlug === shop.slug));
+          return { shopSlug: shop.slug, uniqueThreads: matching.length, windows: customWindowCounts(matching) };
+        }),
+      },
       windows: windows.map(window => ({ ...window, verifiedOriginals: [...originals.values()].filter(original => original.date && original.date >= window.from && original.date <= window.to).length })),
       byType: ['tea', 'coffee'].map(type => {
         const matching = [...originals.values()].filter(original => [...original.shopSlugs].some(slug => brands.get(slug).type === type));
@@ -243,6 +260,7 @@ export function researchFocus({ shops, plan, seed = [], daily = { records: [] },
           windows: windows.map(window => ({ ...window, verifiedOriginals: matching.filter(original => original.date && original.date >= window.from && original.date <= window.to).length })) };
       }),
       ...(coffeePriority ? { coffeePriority: { brandSlugs: coffeePrioritySlugs, originalChecksTarget: Math.min(6, Math.max(0, Number(coffeePriority.originalChecksTarget) || 0)), qualifiedAdditionsTarget: Math.min(2, Math.max(0, Number(coffeePriority.qualifiedAdditionsTarget) || 0)) } } : {}),
+      ...(customPriority ? { customPriority: { brandSlugs: customPrioritySlugs, windowDays: 30, originalChecksTarget: Math.min(4, Math.max(0, Number(customPriority.originalChecksTarget) || 0)), qualifiedAdditionsTarget: Math.min(2, Math.max(0, Number(customPriority.qualifiedAdditionsTarget) || 0)) } } : {}),
     };
   }
   const expanded = plan.expandedDrinkRotation;

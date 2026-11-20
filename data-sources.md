@@ -121,3 +121,10 @@ node scripts/publish-forum-daily.mjs --publish
 ## 跨品牌客製探索（v6，2026-11-19）
 
 客製專區按店家搜尋，保留品牌、配方、第一手論壇原文與原始發文日期。`customRecipePolicy.brandRotation`涵蓋全部38家，每個台灣日曆日輪替3家（含尚無配方的品牌）；`research-focus.mjs`輸出`customBrandSearchTargets`，與既有五家咖啡近期搜尋合併去重，不另增實讀或新增額度。先查7日、30日；有餘額才補有日期的歷史配方，歷史資料不能充當近期樣本。單純糖冰不同不另建配方，既有基本配方沿用穩定身份，個人差異記在note。每日12篇原帖、標準與客製合計5筆新增、2篇日期補核維持；`customBrandCoverage`分開記錄實際搜尋、實讀與合格品牌。雲端提示詞儲存與正式發布驗收另見維護紀錄。
+
+
+## 近期客製優先 v7（2026-11-20）
+
+使用者要求補近30天且指定五十嵐、麻古、龜記與cama。每日透過`customRecipePolicy.recentPriority`固定搜尋四家，再合併全38品牌每天3家輪替，`customBrandSearchTargets`／`recentSearches.customPriority`保留固定標記且同品牌去重。優先最多4篇客製原文／2筆合格客製新增，與咖啡目標重疊可共用，但所有流程仍共用12篇原文、標準與客製5新增、2日期補核，沒有合格者不湊數。
+
+`validateCloudForumUpdate`只對新客製觀測檢查本輪台灣日往前含今天30日，拒絕新的歷史或無原始日期資料；例如2026-11-20窗口為10/22–11/20。已發布歷史配方及未知日期不可刪改，舊帖補核日期仍可追加dateCorrections。配方、原文、dateEvidence與品牌身份規則維持。`freshness.custom`僅計客製去重原帖，標準品項評分不受影響；所有統計須以正式資料加完整seed重算。
