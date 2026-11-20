@@ -430,6 +430,42 @@
       "stance": "negative",
       "note": "作者當天喝莊園拿鐵換燕麥奶，覺得難喝；容量糖冰未載。2024年個人經驗，不能概括現行奶款或所有門市。",
       "dateEvidence": "原作者主文permalink的time datetime=2024-02-08T06:30:17.000Z，換算台灣2024-02-08 14:30；非留言或搜尋時間。"
+    },
+    {
+      "recipeId": "50lan-milk-mango-icecream",
+      "shopSlug": "50lan",
+      "name": "鮮奶芒果冰淇淋",
+      "recipe": "鮮奶、芒果與冰淇淋的組合；各成分份量、比例與芒果形式原文未載。",
+      "platform": "Threads",
+      "url": "https://www.threads.com/@bubble.o511/post/DfofiO6ib27",
+      "date": "2026-11-12",
+      "stance": "positive",
+      "note": "作者按這個名字點單，覺得像芒果奶昔、好喝。杯貼為中杯冰淇淋鮮奶、去冰／特殊；未載芒果形式、各成分份量及比例，點單前須問門市。",
+      "dateEvidence": "正常Chrome重讀原作者主文permalink，其time datetime=2026-11-12T07:13:05.000Z，換算台灣2026-11-12 15:13:05；不是回覆、圖片ALT或瀏覽器時區顯示日。"
+    },
+    {
+      "recipeId": "50lan-ovaltine-icecream",
+      "shopSlug": "50lan",
+      "name": "阿華田加冰淇淋",
+      "recipe": "阿華田加冰淇淋。",
+      "platform": "Threads",
+      "url": "https://www.threads.com/@chchip_1004/post/DfT_FWImeb8",
+      "date": "2026-11-04",
+      "stance": "mixed",
+      "note": "作者選無糖，起初很喜歡，但喝完整杯後覺得偏甜，認為適合嗜甜者。冰量、冰淇淋份量未載；這是主觀甜度感受，不是整杯含糖量測定。",
+      "dateEvidence": "正常Chrome實讀原作者主文permalink，其time datetime=2026-11-04T08:04:43.000Z，換算台灣2026-11-04 16:04:43；非作者後續回覆或圖片ALT日期。"
+    },
+    {
+      "recipeId": "guiji-cold-brew-matcha-king-pearls",
+      "shopSlug": "guiji",
+      "name": "冷萃抹茶王加珍珠",
+      "recipe": "冷萃抹茶王加珍珠。",
+      "platform": "Threads",
+      "url": "https://www.threads.com/@yiiiii_ruuuuu/post/DfWK5KDgaPw",
+      "date": "2026-11-05",
+      "stance": "negative",
+      "note": "作者實喝比較兩杯一分糖少冰，覺得加珍珠那杯明顯較苦、未加珍珠較順口；杯貼可確認基底與加料，不能據此判定苦味成因。",
+      "dateEvidence": "主文permalink /@yiiiii_ruuuuu/post/DfWK5KDgaPw 內time datetime=2026-11-05T04:26:23.000Z，台灣11/05 12:26；杯貼11/05。頁面日期及照片ALT顯示11/4，不採其日期，也未用留言時間。"
     }
   ],
   "dateCorrections": [
