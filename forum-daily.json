@@ -1,5 +1,5 @@
 {
-  "reviewedOn": "2026-11-19",
+  "reviewedOn": "2026-11-20",
   "records": [
     {
       "drinkId": "louisa-coffee-latte",
@@ -488,6 +488,20 @@
       "date": "2025-06-06",
       "verifiedOn": "2026-11-19",
       "dateEvidence": "核對原帖主文 SocialMediaPosting.datePublished=2025-06-06T20:30:50+08:00，主文網址與文章ID一致；未使用dateModified、留言或搜尋收錄時間。"
+    },
+    {
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/food/p/224631949",
+      "date": "2016-08-26",
+      "verifiedOn": "2026-11-20",
+      "dateEvidence": "原帖主文結構化 SocialMediaPosting.datePublished=2016-08-26T23:09:13+08:00，網址ID與主文一致；未採2024-01-21的dateModified或留言日期。"
+    },
+    {
+      "platform": "Dcard",
+      "url": "https://www.dcard.tw/f/food/p/260854150",
+      "date": "2026-02-11",
+      "verifiedOn": "2026-11-20",
+      "dateEvidence": "原帖主文結構化 SocialMediaPosting.datePublished=2026-02-11T12:29:28+08:00，網址ID與主文一致；未採2026-03-17的dateModified或留言日期。"
     }
   ]
 }
