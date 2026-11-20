@@ -1,9 +1,22 @@
 {
-  "checkedAt": "2026-11-19T01:33:00Z",
-  "taipeiDate": "2026-11-19",
+  "checkedAt": "2026-11-20T01:35:00Z",
+  "taipeiDate": "2026-11-20",
   "status": "published",
-  "newRecords": 3,
+  "newRecords": 0,
+  "newCustomRecords": 0,
   "sourceCount": 4,
   "publicationVerified": true,
-  "reason": "已讀最新38家2,006杯完整監測清單與輪替目標；新增品項輪替50嵐、迷客夏、麻古，品牌輪替茶湯會、COMEBUY、烏弄，另補85度C。實讀4篇，員工貼文與問帖均排除。新增COMEBUY嗨神奶茶、烏弄金萱烏龍拿鐵、85度C拿鐵咖啡各1筆；驗證通過、GitHub讀回一致。空POST同步成功，正式端點HTTP200，17筆及2026-11-19已確認上線。"
+  "reason": "已讀最新38家2,007杯目錄與完整輪替。實際搜尋星巴克、路易莎、cama、CITY CAFE、Let’s Café及清心、可不可、大茗；實讀4篇。近期咖啡結果多為促銷、罐裝／非現行品項或日期不足，未硬收錄。補核迷客夏、麻古既有原帖各1篇datePublished；驗證通過，GitHub與正式端點均讀回40標準、9客製、10日期補核，2026-11-20已上線。",
+  "recentCoffee7Threads": 4,
+  "recentCoffee30Threads": 7,
+  "coffeeCoverage": {"searched":["starbucks","louisa","cama","citycafe","letscafe"],"read":["starbucks","letscafe"],"qualified":[]},
+  "customBrandCoverage": {"searched":[],"read":[],"qualified":[]},
+  "datesCorrected": 2,
+  "recent7Threads": 9,
+  "recent30Threads": 15,
+  "unknownDateThreads": 14,
+  "dateChecks": [
+    {"url":"https://www.dcard.tw/f/food/p/224631949","date":"2016-08-26","dateEvidence":"主文SocialMediaPosting.datePublished=2016-08-26T23:09:13+08:00；未採dateModified。"},
+    {"url":"https://www.dcard.tw/f/food/p/260854150","date":"2026-02-11","dateEvidence":"主文SocialMediaPosting.datePublished=2026-02-11T12:29:28+08:00；未採dateModified。"}
+  ]
 }
