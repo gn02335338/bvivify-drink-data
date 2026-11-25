@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-11-24T01:31:00Z",
-  "taipeiDate": "2026-11-24",
+  "checkedAt": "2026-11-25T01:37:40Z",
+  "taipeiDate": "2026-11-25",
   "status": "no_new_data",
   "newRecords": 0,
   "newCustomRecords": 0,
   "sourceCount": 0,
   "publicationVerified": true,
-  "reason": "已讀最新38家2,007杯目錄與完整輪替。搜尋星巴克、路易莎、cama、CITY CAFE、Let’s Café及50嵐、麻古、龜記、cama的近期原帖；結果為新聞、公告、導購／促銷、員工或舊文，未找到可實讀且可驗證原始日期的一手實喝，未硬收錄。空POST同步與正式讀回正常。",
-  "recentCoffee7Threads": 2,
+  "reason": "已讀最新38家2,007杯目錄與完整輪替。搜尋星巴克、路易莎、cama、CITY CAFE、Let’s Café及50嵐、麻古、龜記、cama的近期原帖；候選多為零售咖啡粉、促銷導購、舊文或留言，未找到可實讀且可驗證原始日期的一手實喝，未硬收錄。空POST同步與正式讀回正常。",
+  "recentCoffee7Threads": 1,
   "recentCoffee30Threads": 7,
   "coffeeCoverage": {
     "searched": [
@@ -33,7 +33,7 @@
     "qualified": []
   },
   "datesCorrected": 0,
-  "recent7Threads": 3,
+  "recent7Threads": 1,
   "recent30Threads": 18,
   "unknownDateThreads": 52,
   "dateChecks": []
